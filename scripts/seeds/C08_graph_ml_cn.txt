@@ -11,10 +11,10 @@
 2402.02287 | Future Directions in the Theory of Graph Machine Learning | R | C01 | 图机器学习理论的研究议程
 2405.19121 | Spatio-Spectral Graph Neural Networks | R | - | 空域+谱域结合缓解过度挤压
 2405.13526 | Understanding Virtual Nodes: Oversquashing and Node Heterogeneity | R | - | 虚拟节点对过度挤压的作用
-2502.04591 | Rethinking Oversmoothing in Graph Neural Networks: A Rank-Based Perspective | R | - | 以秩度量重新审视过平滑
+2502.04591 | Are We Measuring Oversmoothing in Graph Neural Networks Correctly? | R | - | 以秩度量重新审视过平滑（arXiv 后续版本改用现标题）
 2402.08678 | Graph Mamba: Towards Learning on Graphs with State Space Models | R | C04 | 状态空间模型用于图学习
 2402.02216 | Position: Graph Foundation Models Are Already Here | R | - | 图基础模型的可迁移性与词表视角
-2405.20445 | GraphAny: A Foundation Model for Node Classification on Any Graph | R | - | 任意图上的归纳式节点分类基础模型
+2405.20445 | Fully-inductive Node Classification on Arbitrary Graphs | R | - | 任意图上的归纳式节点分类基础模型（arXiv 后续版本改用现标题）
 2403.01121 | OpenGraph: Towards Open Graph Foundation Models | R | - | 零样本图基础模型
 2408.10700 | AnyGraph: Graph Foundation Model in the Wild | R | - | 处理跨域异构图的图基础模型
 2402.11235 | ZeroG: Investigating Cross-dataset Zero-shot Transferability in Graphs | R | - | 跨数据集零样本图迁移

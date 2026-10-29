@@ -18,7 +18,7 @@
 2312.03701 | Return of Unconditional Generation: A Self-supervised Representation Generation Method | R | C07 | 用自监督表示驱动无条件生成
 2407.03475 | How JEPA Avoids Noisy Features: The Implicit Bias of Deep Linear Self Distillation Networks | R | C01 | JEPA 与重建目标隐式偏置的理论比较
 2511.08544 | LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics | R | - | 有理论保证、去除启发式技巧的 JEPA 训练
-2507.22062 | MetaCLIP 2: A Worldwide Scaling Recipe | R | C05 | 多语言全球数据上的 CLIP 训练配方
+2507.22062 | Meta CLIP 2: A Worldwide Scaling Recipe | R | C05 | 多语言全球数据上的 CLIP 训练配方（arXiv 后续版本改用现标题）
 2403.15378 | Long-CLIP: Unlocking the Long-Text Capability of CLIP | R | C05 | 扩展 CLIP 的长文本对齐能力
 2402.01399 | A Probabilistic Model Behind Self-Supervised Learning | R | C01 | 为对比/非对比自监督方法给出统一生成模型解释
 2411.06508 | Understanding the Role of Equivariance in Self-supervised Learning | R | - | 等变自监督目标的信息论分析

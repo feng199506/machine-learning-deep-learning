@@ -33,7 +33,7 @@ doi:10.1038/s41586-024-07421-0 | Detecting hallucinations in large language mode
 2410.08258 | In Search of Forgotten Domain Generalization | R | C05 | 控制数据污染后重新评估 CLIP 的域泛化
 2404.04125 | No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance | R | C03 | 预训练概念频率决定零样本性能
 2403.01874 | A Survey on Evaluation of Out-of-Distribution Generalization | S | - | 分布外泛化评测综述
-2402.12715 | Spurious Correlations in Machine Learning: A Survey | S | C01 | 伪相关与捷径学习综述
+2402.12715 | The Clever Hans Mirage: A Comprehensive Survey on Spurious Correlations in Machine Learning | S | C01 | 伪相关与捷径学习综述（arXiv 后续版本改用现标题）
 2405.00332 | A Careful Examination of Large Language Model Performance on Grade School Arithmetic | R | C06 | GSM1k：检测基准污染导致的过拟合
 2406.04244 | Benchmark Data Contamination of Large Language Models: A Survey | S | C06 | 基准数据污染综述
 2311.09783 | Investigating Data Contamination in Modern Benchmarks for Large Language Models | R | C06 | 现代基准的数据污染检测

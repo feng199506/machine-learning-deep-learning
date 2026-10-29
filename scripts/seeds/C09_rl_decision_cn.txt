@@ -21,7 +21,7 @@
 2403.00564 | EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data | R | - | 样本高效的模型式规划
 2411.14499 | Understanding World or Predicting Future? A Comprehensive Survey of World Models | S | C07 | 世界模型综述
 2402.14740 | Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs | R | C06 | RLOO：REINFORCE 类方法替代 PPO
-2501.03262 | REINFORCE++: An Efficient RLHF Algorithm with Robustness to Both Prompt and Reward Models | R | C06 | 改进的 REINFORCE 对齐算法
+2501.03262 | REINFORCE++: Stabilizing Critic-Free Policy Optimization with Global Advantage Normalization | R | C06 | 改进的 REINFORCE 对齐算法（arXiv 后续版本改用现标题）
 2404.14367 | Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data | R | C06 | 偏好微调中在线策略采样与负梯度的作用
 2409.12917 | Training Language Models to Self-Correct via Reinforcement Learning | R | C06 | 多轮在线 RL 训练自我纠错
 2410.01679 | VinePPO: Refining Credit Assignment in RL Training of LLMs | R | C06 | 蒙特卡洛价值估计改进 LLM RL 信用分配
