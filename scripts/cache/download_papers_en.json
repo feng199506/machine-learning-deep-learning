@@ -1,0 +1,1458 @@
+{
+ "MLP0001": {
+  "tries": [
+   {
+    "label": "arXiv 2409.15156v2",
+    "url": "https://arxiv.org/pdf/2409.15156v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2409.15156v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 25,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Rethinking Conventional Wisdom in Machine Learning: From Generalization to Scaling Lechao Xiao xlc@google.com Google DeepMind Abstract The remarkable success of large language pretraining and the disc",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Xiao_RethinkingConventionalWisdomMachine_en.pdf",
+  "sha256": "6f940300cd99e6d4b4ca1628d46eb9a2387a876625dc5c33c1d594d35064504b",
+  "size": 3095927,
+  "pdf_url": "https://arxiv.org/pdf/2409.15156v2",
+  "version_label": "arXiv 2409.15156v2",
+  "pages": 25,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0002": {
+  "tries": [
+   {
+    "label": "arXiv 2503.02113v2",
+    "url": "https://arxiv.org/pdf/2503.02113v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2503.02113v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 21,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Deep Learning is Not So Mysterious or Different Andrew Gordon Wilson New York University Abstract Deep neural networks are often seen as different from other model classes by defying conventional noti",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2025_Wilson_DeepLearningNotSo_en.pdf",
+  "sha256": "ed980e43235fdb036cdfbdee31a6287f527aad1a54d003a4ca00d8f585b4a539",
+  "size": 1389756,
+  "pdf_url": "https://arxiv.org/pdf/2503.02113v2",
+  "version_label": "arXiv 2503.02113v2",
+  "pages": 21,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0003": {
+  "tries": [
+   {
+    "label": "arXiv 2310.18988v1",
+    "url": "https://arxiv.org/pdf/2310.18988v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2310.18988v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 31,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning Alicia Curth∗ University of Cambridge amc253@cam.ac.uk Alan Jeffares∗ University of Cambridge aj659@cam.ac.uk Mihaela ",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2023_Curth_UTurnDoubleDescent_en.pdf",
+  "sha256": "ea088742c78e57786130ebc7b3366e95ee07fa51b3a4c6a5161aa91001a612e7",
+  "size": 1367442,
+  "pdf_url": "https://arxiv.org/pdf/2310.18988v1",
+  "version_label": "arXiv 2310.18988v1",
+  "pages": 31,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0004": {
+  "tries": [
+   {
+    "label": "arXiv 2409.18842v1",
+    "url": "https://arxiv.org/pdf/2409.18842v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2409.18842v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 10,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Classical Statistical (In-Sample) Intuitions Don’t Generalize Well: A Note on Bias-Variance Tradeoffs, Overfitting and Moving from Fixed to Random Designs Alicia Curth 1 Abstract The sudden appearance",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Curth_ClassicalStatisticalSampleIntuitions_en.pdf",
+  "sha256": "8eb60e2356f9bb20f9d18f3d9ba642f60ad3ca4a373d775ebda578aa1afd3ae1",
+  "size": 524268,
+  "pdf_url": "https://arxiv.org/pdf/2409.18842v1",
+  "version_label": "arXiv 2409.18842v1",
+  "pages": 10,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0005": {
+  "tries": [
+   {
+    "label": "arXiv 2312.17173v3",
+    "url": "https://arxiv.org/pdf/2312.17173v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2312.17173v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 19,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Non-Vacuous Generalization Bounds for Large Language Models Sanae Lotfi * 1 Marc Finzi * 2 Yilun Kuang* 1 Tim G. J. Rudner 1 Micah Goldblum 1 Andrew Gordon Wilson 1 Abstract Modern language models can",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2023_Lotfi_NonVacuousGeneralizationBounds_en.pdf",
+  "sha256": "6fab3f266b9dd24db4ae9f3882900451faa6bd1210d9eaa48f9c0ba84b9e1f69",
+  "size": 542616,
+  "pdf_url": "https://arxiv.org/pdf/2312.17173v3",
+  "version_label": "arXiv 2312.17173v3",
+  "pages": 19,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0006": {
+  "tries": [
+   {
+    "label": "arXiv 2407.18158v1",
+    "url": "https://arxiv.org/pdf/2407.18158v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2407.18158v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 24,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models Sanae Lotfi1,∗ Yilun Kuang1,∗ Brandon Amos2,† Micah Goldblum1 Marc Finzi3 Andrew Gordon Wilson1 1New York University",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Lotfi_UnlockingTokensDataPoints_en.pdf",
+  "sha256": "82f94c6361c6710a83ca707fd3f6ccb51091ea6618b133739bfc7c250f978695",
+  "size": 861919,
+  "pdf_url": "https://arxiv.org/pdf/2407.18158v1",
+  "version_label": "arXiv 2407.18158v1",
+  "pages": 24,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0007": {
+  "tries": [
+   {
+    "label": "arXiv 2405.20233v2",
+    "url": "https://arxiv.org/pdf/2405.20233v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.20233v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 18,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.996,
+    "first_text_head": "Grokfast: Accelerated Grokking by Amplifying Slow Gradients Jaerin Lee∗♠ Bong Gyun Kang∗♡ Kihoon Kim♡ Kyoung Mu Lee♠♡ ♠ASRI, Department of ECE, ♡Interdisciplinary Program in Artificial Intelligence, S",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Lee_Grokfast_en.pdf",
+  "sha256": "20d2d05559b01afc8eeb0cda8822ada201cce80268ab8da2d961e929734959b9",
+  "size": 4059585,
+  "pdf_url": "https://arxiv.org/pdf/2405.20233v2",
+  "version_label": "arXiv 2405.20233v2",
+  "pages": 18,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.996
+ },
+ "MLP0008": {
+  "tries": [
+   {
+    "label": "arXiv 2501.04697v2",
+    "url": "https://arxiv.org/pdf/2501.04697v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2501.04697v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 18,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Published as a conference paper at ICLR 2025 GROKKING AT THE EDGE OF NUMERICAL STABILITY Lucas Prieto, Melih Barsbey, Pedro A.M. Mediano ∗, Tolga Birdal∗ Department of Computing Imperial College Londo",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2025_Prieto_GrokkingEdgeNumericalStability_en.pdf",
+  "sha256": "78794cb04751f5b10c030c8094408682a943893191c28adf9046686d74d3873f",
+  "size": 1822224,
+  "pdf_url": "https://arxiv.org/pdf/2501.04697v2",
+  "version_label": "arXiv 2501.04697v2",
+  "pages": 18,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0009": {
+  "tries": [
+   {
+    "label": "arXiv 2405.19454v1",
+    "url": "https://arxiv.org/pdf/2405.19454v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.19454v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 8,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Deep Grokking: Would Deep Neural Networks Generalize Better? Simin Fan1 Razvan Pascanu2 Martin Jaggi1 Abstract Recent research on the grokking phenomenon has illuminated the intricacies of neural netw",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Fan_DeepGrokking_en.pdf",
+  "sha256": "1916043cc4ab2fa7cd81ed20834a627797aa6ac9b20765b63b58a6d7617e889a",
+  "size": 5368765,
+  "pdf_url": "https://arxiv.org/pdf/2405.19454v1",
+  "version_label": "arXiv 2405.19454v1",
+  "pages": 8,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0010": {
+  "tries": [
+   {
+    "label": "arXiv 2407.20199v3",
+    "url": "https://arxiv.org/pdf/2407.20199v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2407.20199v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 27,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Emergence in non-neural models: grokking modular arithmetic via average gradient outer product Neil Mallinar1,2 Daniel Beaglehole1 Libin Zhu1 Adityanarayanan Radhakrishnan2 Parthe Pandit3 Mikhail Belk",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Mallinar_EmergenceNonNeuralModels_en.pdf",
+  "sha256": "9f7f4bcd6c8768fbc734017d395ee0bc4dec3114cf0ef1c20d3f8d3d0be293df",
+  "size": 4038132,
+  "pdf_url": "https://arxiv.org/pdf/2407.20199v3",
+  "version_label": "arXiv 2407.20199v3",
+  "pages": 27,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0011": {
+  "tries": [
+   {
+    "label": "arXiv 2402.07043v2",
+    "url": "https://arxiv.org/pdf/2402.07043v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2402.07043v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 33,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "A Tale of Tails: Model Collapse as a Change of Scaling Laws Elvis Dohmatob * 1 Yunzhen Feng* 2 Pu Yang3 Francois Charton 1 Julia Kempe 2 4 1 Abstract As AI model size grows, neural scaling laws have b",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Dohmatob_TaleTailsModelCollapse_en.pdf",
+  "sha256": "21782e9c30272d1d82e63970e6950d574c53922062f94287cb03189916197e4e",
+  "size": 2550170,
+  "pdf_url": "https://arxiv.org/pdf/2402.07043v2",
+  "version_label": "arXiv 2402.07043v2",
+  "pages": 33,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0012": {
+  "tries": [
+   {
+    "label": "arXiv 2404.01413v2",
+    "url": "https://arxiv.org/pdf/2404.01413v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2404.01413v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 29,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data Matthias Gerstgrasser∗†, Rylan Schaeffer∗, Apratim Dey∗, Rafael Rafailov∗, Dhruv Pai Stanford Univ",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Gerstgrasser_ModelCollapseInevitableBreaking_en.pdf",
+  "sha256": "fd4f45b2625c119f94e5c2f05cac38cacf1d0bf4f6a09961a9bb968567bf69e7",
+  "size": 5651490,
+  "pdf_url": "https://arxiv.org/pdf/2404.01413v2",
+  "version_label": "arXiv 2404.01413v2",
+  "pages": 29,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0013": {
+  "tries": [
+   {
+    "label": "arXiv 2410.04840v2",
+    "url": "https://arxiv.org/pdf/2410.04840v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2410.04840v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 34,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Strong Model Collapse Elvis Dohmatob1 e.dohmatob@meta.com Yunzhen Feng1,2,∗ yf2231@nyu.edu Arjun Subramonian1,4,∗ arjunsub@cs.ucla.edu Julia Kempe1,2,3 kempe@meta.com 1 FAIR, Meta 2 NYU Center for Dat",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Dohmatob_StrongModelCollapse_en.pdf",
+  "sha256": "018b67d685146b37515542670c7729db8f3e7dd7290886d8ff83758c968ebad4",
+  "size": 1045806,
+  "pdf_url": "https://arxiv.org/pdf/2410.04840v2",
+  "version_label": "arXiv 2410.04840v2",
+  "pages": 34,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0014": {
+  "tries": [
+   {
+    "label": "arXiv 2405.15074v3",
+    "url": "https://arxiv.org/pdf/2405.15074v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.15074v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 76,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "first_text_head": "4+3 Phases of Compute-Optimal Neural Scaling Laws Elliot Paquette∗ McGill University elliot.paquette@mcgill.ca Courtney Paquette Google DeepMind & McGill University courtney.paquette@mcgill.ca Lechao ",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Paquette_43PhasesCompute_en.pdf",
+  "sha256": "2c0446a558a88c78b917a992b0598469b60eaddc0d564931a435c26a09ee447e",
+  "size": 13497263,
+  "pdf_url": "https://arxiv.org/pdf/2405.15074v3",
+  "version_label": "arXiv 2405.15074v3",
+  "pages": 76,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.997
+ },
+ "MLP0015": {
+  "tries": [
+   {
+    "label": "arXiv 2406.08466v3",
+    "url": "https://arxiv.org/pdf/2406.08466v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2406.08466v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 48,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "first_text_head": "arXiv:2406.08466v3 [cs.LG] 10 Jun 2025 Scaling Laws in Linear Regression: Compute, Parameters, and Data Licong Lin* Jingfeng Wu† Sham M. Kakade‡ Peter L. Bartlett§ Jason D. Lee¶ June 11, 2025 Abstract",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Lin_ScalingLawsLinearRegression_en.pdf",
+  "sha256": "1fe02e65fc5cbb28926271a31c4616d86528ac07c13d54a21b65dea5436f7c7e",
+  "size": 1070298,
+  "pdf_url": "https://arxiv.org/pdf/2406.08466v3",
+  "version_label": "arXiv 2406.08466v3",
+  "pages": 48,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.998
+ },
+ "MLP0016": {
+  "tries": [
+   {
+    "label": "arXiv 2402.01092v4",
+    "url": "https://arxiv.org/pdf/2402.01092v4",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2402.01092v4",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 38,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "A Dynamical Model of Neural Scaling Laws Blake Bordelon 1 2 Alexander Atanasov 3 2 Cengiz Pehlevan1 2 Abstract On a variety of tasks, the performance of neural networks predictably improves with train",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Bordelon_DynamicalModelNeuralScaling_en.pdf",
+  "sha256": "5ca8adf636837b26e9c11ec0513cf8e93e7602149fc91fd06f4d75b69065610f",
+  "size": 2236204,
+  "pdf_url": "https://arxiv.org/pdf/2402.01092v4",
+  "version_label": "arXiv 2402.01092v4",
+  "pages": 38,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0017": {
+  "tries": [
+   {
+    "label": "arXiv 2409.17858v2",
+    "url": "https://arxiv.org/pdf/2409.17858v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2409.17858v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 31,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.989,
+    "first_text_head": "Published as a conference paper at ICLR 2025 HOW FEATURE LEARNING CAN IMPROVE NEURAL SCALING LAWS Blake Bordelon∗, Alexander Atanasov∗ , Cengiz Pehlevan ABSTRACT We develop a solvable model of neural ",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Bordelon_FeatureLearningImproveNeural_en.pdf",
+  "sha256": "dea4d29f6615724b67bb45ecd30780bd75cc304e3076e8981014cadb577639e8",
+  "size": 2858844,
+  "pdf_url": "https://arxiv.org/pdf/2409.17858v2",
+  "version_label": "arXiv 2409.17858v2",
+  "pages": 31,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.989
+ },
+ "MLP0018": {
+  "tries": [
+   {
+    "label": "arXiv 2405.00592v4",
+    "url": "https://arxiv.org/pdf/2405.00592v4",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.00592v4",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 74,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Scaling and renormalization in high-dimensional regression Alexander Atanasov,1, 2,∗ Jacob A. Zavatone-Veth,1, 2, 3, 4,† and Cengiz Pehlevan2, 3, 5,‡ 1Department of Physics, Harvard University, Cambri",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Atanasov_ScalingRenormalizationHighDimensional_en.pdf",
+  "sha256": "aef5fb81d348dbe3b54a4cd3aa47ad675c45b7ec3b7b70c95a51a66f7f743707",
+  "size": 1957657,
+  "pdf_url": "https://arxiv.org/pdf/2405.00592v4",
+  "version_label": "arXiv 2405.00592v4",
+  "pages": 74,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0019": {
+  "tries": [
+   {
+    "label": "arXiv 2406.19146v4",
+    "url": "https://arxiv.org/pdf/2406.19146v4",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2406.19146v4",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 30,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Resolving Discrepancies in Compute-Optimal Scaling of Language Models Tomer Porian∗ Mitchell Wortsman† Jenia Jitsev‡ Ludwig Schmidt† Yair Carmon∗ Abstract Kaplan et al. [30] and Hoffmann et al. [25] d",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Porian_ResolvingDiscrepanciesComputeOptimal_en.pdf",
+  "sha256": "d47e3792ae67a30f4b53ada4d89d22c36185afafedeceaeefecee1c9d4520ac0",
+  "size": 3548193,
+  "pdf_url": "https://arxiv.org/pdf/2406.19146v4",
+  "version_label": "arXiv 2406.19146v4",
+  "pages": 30,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0020": {
+  "tries": [
+   {
+    "label": "arXiv 2404.10102v2",
+    "url": "https://arxiv.org/pdf/2404.10102v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2404.10102v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 7,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "first_text_head": "Chinchilla Scaling: A replication attempt Tamay Besiroglu Ege Erdil Matthew Barnett Josh You Epoch AI May 16, 2024 Abstract Hoffmann et al. (2022) propose three methods for estimat- ing a compute-opti",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Besiroglu_ChinchillaScaling_en.pdf",
+  "sha256": "740f66a4055f9297d7725cfaa271a1307aa45dd522fd5cb681a9e566ba6b8342",
+  "size": 1360507,
+  "pdf_url": "https://arxiv.org/pdf/2404.10102v2",
+  "version_label": "arXiv 2404.10102v2",
+  "pages": 7,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.998
+ },
+ "MLP0021": {
+  "tries": [
+   {
+    "label": "arXiv 2410.07746v2",
+    "url": "https://arxiv.org/pdf/2410.07746v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2410.07746v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 103,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Benign Overfitting in Single-Head Attention Roey Magen* Weizmann Institute of Science roey.magen@weizmann.ac.il Shuning Shang∗† Zhejiang University shuningshang@gmail.com Zhiwei Xu University of Michi",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Magen_BenignOverfittingSingleHead_en.pdf",
+  "sha256": "9d7719178a7a1279ec181590630db205d634088eec9bf5e7894ca20120d5ad74",
+  "size": 1388813,
+  "pdf_url": "https://arxiv.org/pdf/2410.07746v2",
+  "version_label": "arXiv 2410.07746v2",
+  "pages": 103,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0022": {
+  "tries": [
+   {
+    "label": "arXiv 2403.06903v3",
+    "url": "https://arxiv.org/pdf/2403.06903v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2403.06903v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 39,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.991,
+    "first_text_head": "arXiv:2403.06903v3 [cs.LG] 2 Oct 2024 BE N I G N OV E R FI T T IN G I N L E A K Y RE LU N E T WO R K S W I T H M O D E R AT E I N P U T D I M E N S I O N A P RE P RIN T Kedar Karhadkar 1∗ Erin George ",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Karhadkar_BenignOverfittingLeakyReLU_en.pdf",
+  "sha256": "98e91359ff4059398dd55ebbce8674d809b2537a9c15b303d903ab199b368ce5",
+  "size": 428245,
+  "pdf_url": "https://arxiv.org/pdf/2403.06903v3",
+  "version_label": "arXiv 2403.06903v3",
+  "pages": 39,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.991
+ },
+ "MLP0023": {
+  "tries": [
+   {
+    "label": "arXiv 2403.10459v1",
+    "url": "https://arxiv.org/pdf/2403.10459v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2403.10459v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 21,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "first_text_head": "Understanding the Double Descent Phenomenon in Deep Learning Marc Lafon∗ lafon.ma.ml@gmail.com Alexandre Thomas∗ hi@alxthm.com January 28, 2021 Abstract Combining empirical risk minimization with capa",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Lafon_UnderstandingDoubleDescentPhenomenon_en.pdf",
+  "sha256": "1a6a91a0d23d512341c481a719cf2b9299ff615f8a367e27dc059a27b9fa4246",
+  "size": 2227882,
+  "pdf_url": "https://arxiv.org/pdf/2403.10459v1",
+  "version_label": "arXiv 2403.10459v1",
+  "pages": 21,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.997
+ },
+ "MLP0024": {
+  "tries": [
+   {
+    "label": "arXiv 2403.02241v3",
+    "url": "https://arxiv.org/pdf/2403.02241v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2403.02241v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 24,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Neural Redshift: Random Networks are not Random Functions Damien Teney Idiap Research Institute damien.teney@idiap.ch Armand Mihai Nicolicioiu ETH Zurich armandmihai.nicolicioiu@inf.ethz.ch Valentin H",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Teney_NeuralRedshift_en.pdf",
+  "sha256": "fde40d9cb991f92afa71ed86c66dc4ad365463ae9abc590991210da0ef52d2a7",
+  "size": 9435953,
+  "pdf_url": "https://arxiv.org/pdf/2403.02241v3",
+  "version_label": "arXiv 2403.02241v3",
+  "pages": 24,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0025": {
+  "tries": [
+   {
+    "label": "arXiv 2407.05664v2",
+    "url": "https://arxiv.org/pdf/2407.05664v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2407.05664v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 35,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.991,
+    "first_text_head": "Published as a conference paper at ICLR 2025 HOW DNN S BREAK THE CURSE OF DIMENSIONALITY : COMPOSITIONALITY AND SYMMETRY LEARNING Arthur Jacot, Seok Hoan Choi & Yuxiao Wen Courant Institute New York U",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Jacot_DNNsBreakCurseDimensionality_en.pdf",
+  "sha256": "530de278fa9c97bee03c9b02f833d989677af98d5501cfdecd4792df7aee9645",
+  "size": 2458691,
+  "pdf_url": "https://arxiv.org/pdf/2407.05664v2",
+  "version_label": "arXiv 2407.05664v2",
+  "pages": 35,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.991
+ },
+ "MLP0026": {
+  "tries": [
+   {
+    "label": "arXiv 2404.04454v1",
+    "url": "https://arxiv.org/pdf/2404.04454v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2404.04454v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 31,
+    "title_match": 0.875,
+    "ascii_letter_ratio": 0.992,
+    "first_text_head": "Implicit Bias of AdamW:ℓ∞ Norm Constrained Optimization Shuo Xie Zhiyuan Li Toyota Technological Institute at Chicago {shuox,zhiyuanli}@ttic.edu Abstract Adam with decoupled weight decay, also known a",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Xie_ImplicitBiasAdamWEll_en.pdf",
+  "sha256": "7a303f7ca1275e11e51653f11ed317c6cbcf2b2e9964218826035faa1f2cc8d5",
+  "size": 1039144,
+  "pdf_url": "https://arxiv.org/pdf/2404.04454v1",
+  "version_label": "arXiv 2404.04454v1",
+  "pages": 31,
+  "title_match": 0.875,
+  "ascii_letter_ratio": 0.992
+ },
+ "MLP0027": {
+  "tries": [
+   {
+    "label": "arXiv 2406.10650v1",
+    "url": "https://arxiv.org/pdf/2406.10650v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2406.10650v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 33,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.992,
+    "first_text_head": "The Implicit Bias of Adam on Separable Data Chenyang Zhang∗ Difan Zou† Yuan Cao‡ June 18, 2024 Abstract Adam has become one of the most favored optimizers in deep learning problems. Despite its succes",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Zhang_ImplicitBiasAdamSeparable_en.pdf",
+  "sha256": "975d0eb2cb4a4d6a41a0ff23b8c41712b7382ba76437eae118ddee260e2fd012",
+  "size": 732782,
+  "pdf_url": "https://arxiv.org/pdf/2406.10650v1",
+  "version_label": "arXiv 2406.10650v1",
+  "pages": 33,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.992
+ },
+ "MLP0028": {
+  "tries": [
+   {
+    "label": "arXiv 2402.15926v2",
+    "url": "https://arxiv.org/pdf/2402.15926v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2402.15926v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 55,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.995,
+    "first_text_head": "Proceedings of Machine Learning Research vol 247:1–55, 2024 37th Annual Conference on Learning Theory Large Stepsize Gradient Descent for Logistic Loss: Non-Monotonicity of the Loss Improves Optimizat",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Wu_LargeStepsizeGradientDescent_en.pdf",
+  "sha256": "8a23a3ccd41a86d7dd96e3cc6495d27729e2a551facbb1bf923e6fa7ce48ff32",
+  "size": 846065,
+  "pdf_url": "https://arxiv.org/pdf/2402.15926v2",
+  "version_label": "arXiv 2402.15926v2",
+  "pages": 55,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.995
+ },
+ "MLP0029": {
+  "tries": [
+   {
+    "label": "arXiv 2406.05033v3",
+    "url": "https://arxiv.org/pdf/2406.05033v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2406.05033v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 42,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.995,
+    "first_text_head": "Gradient Descent on Logistic Regression with Non-Separable Data and Large Step Sizes Si Yi Meng sm2833@cornell.edu Department of Computer Science Cornell University Ithaca, NY, USA Antonio Orvieto ant",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Meng_GradientDescentLogisticRegression_en.pdf",
+  "sha256": "be3b0ada8d278fd79640670f48d10b6334c5d1e001ae284d7adeefceec896a03",
+  "size": 9567212,
+  "pdf_url": "https://arxiv.org/pdf/2406.05033v3",
+  "version_label": "arXiv 2406.05033v3",
+  "pages": 42,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.995
+ },
+ "MLP0030": {
+  "tries": [
+   {
+    "label": "arXiv 2402.03220v3",
+    "url": "https://arxiv.org/pdf/2402.03220v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2402.03220v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 30,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "first_text_head": "The Benefits of Reusing Batches for Gradient Descent in Two-Layer Networks: Breaking the Curse of Information and Leap Exponents Yatin Dandi1,2, Emanuele Troiani2, Luca Arnaboldi1, Luca Pesce1, Lenka ",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Dandi_BenefitsReusingBatchesGradient_en.pdf",
+  "sha256": "d6423da5f21d5b6884e02d4f42936f6689cd00e84f6605333db8487b33a04d4c",
+  "size": 1136175,
+  "pdf_url": "https://arxiv.org/pdf/2402.03220v3",
+  "version_label": "arXiv 2402.03220v3",
+  "pages": 30,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.997
+ },
+ "MLP0031": {
+  "tries": [
+   {
+    "label": "arXiv 2406.01581v2",
+    "url": "https://arxiv.org/pdf/2406.01581v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2406.01581v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 36,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.995,
+    "first_text_head": "Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit Jason D. Lee∗, Kazusato Oko†, Taiji Suzuki‡, Denny Wu§ December 24, 2024 Abstract We study the problem o",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Lee_NeuralNetworkLearnsLow_en.pdf",
+  "sha256": "77a483643363f7d207ae574c4380c8c7ad8b9c76c10c6412192399459e74df32",
+  "size": 947732,
+  "pdf_url": "https://arxiv.org/pdf/2406.01581v2",
+  "version_label": "arXiv 2406.01581v2",
+  "pages": 36,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.995
+ },
+ "MLP0032": {
+  "tries": [
+   {
+    "label": "arXiv 2405.03676v1",
+    "url": "https://arxiv.org/pdf/2405.03676v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.03676v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 19,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Published as a conference paper at ICLR 2024 WHY IS SAM R OBUST TO LABEL NOISE ? Christina Baek Zico Kolter Aditi Raghunathan Carnegie Mellon University {kbaek, zkolter, raditi} @andrew.cmu.edu ABSTRA",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Baek_WhySAMRobustLabel_en.pdf",
+  "sha256": "3115904b3a6b9be1b6cf6375f1c2ab0e455e49e4e1d0b23b111ebd39657d0b25",
+  "size": 1334484,
+  "pdf_url": "https://arxiv.org/pdf/2405.03676v1",
+  "version_label": "arXiv 2405.03676v1",
+  "pages": 19,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0033": {
+  "tries": [
+   {
+    "label": "arXiv 2410.10373v2",
+    "url": "https://arxiv.org/pdf/2410.10373v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2410.10373v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 32,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Published as a conference paper at ICLR 2025 SHARPNESS -AWARE MINIMIZATION EFFICIENTLY SE- LECTS FLATTER MINIMA LATE IN TRAINING Zhanpeng Zhou1∗†, Mingze Wang2∗, Yuchen Mao1, Bingrui Li3, Junchi Yan1†",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Zhou_SharpnessAwareMinimizationEfficiently_en.pdf",
+  "sha256": "bb4c9ffa09104dfccefda941f68c13c9dd8a281d6381e4087673e5b4ff559f16",
+  "size": 2377804,
+  "pdf_url": "https://arxiv.org/pdf/2410.10373v2",
+  "version_label": "arXiv 2410.10373v2",
+  "pages": 32,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0034": {
+  "tries": [
+   {
+    "label": "arXiv 2410.23819v1",
+    "url": "https://arxiv.org/pdf/2410.23819v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2410.23819v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 30,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "first_text_head": "Weight decay induces low-rank attention layers Seijin Kobayashi∗1,2, Yassir Akram∗1 Johannes von Oswald2 1Department of Computer Science, ETH Zürich 2Google, Paradigms of Intelligence Team {seijink, j",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Kobayashi_WeightDecayInducesLow_en.pdf",
+  "sha256": "f0cec089ed23695cb0ee4108432e9f6f9567c09918d610fff370bc68872bf927",
+  "size": 1717022,
+  "pdf_url": "https://arxiv.org/pdf/2410.23819v1",
+  "version_label": "arXiv 2410.23819v1",
+  "pages": 30,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.998
+ },
+ "MLP0035": {
+  "tries": [
+   {
+    "label": "arXiv 2408.11804v1",
+    "url": "https://arxiv.org/pdf/2408.11804v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2408.11804v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 24,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Approaching Deep Learning through the Spectral Dynamics of Weights David Yunis1 Kumar Kshitij Patel 1 Samuel Wheeler 2 Pedro Savarese1 Gal Vardi3 Karen Livescu 1 Michael Maire 4 Matthew R. Walter1 Abs",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Yunis_ApproachingDeepLearningThrough_en.pdf",
+  "sha256": "f4837e3217cd99e45a4032310c03697fe6dd745d4677c216da5ded7e6b01fc1c",
+  "size": 6348885,
+  "pdf_url": "https://arxiv.org/pdf/2408.11804v1",
+  "version_label": "arXiv 2408.11804v1",
+  "pages": 24,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0036": {
+  "tries": [
+   {
+    "label": "arXiv 2406.03880v1",
+    "url": "https://arxiv.org/pdf/2406.03880v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2406.03880v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 26,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "JOURNAL OF LATEX CLASS FILES, VOL. 18, NO. 9, SEPTEMBER 2020 1 Memorization in deep learning: A survey Jiaheng Wei , Yanjun Zhang , Leo Yu Zhang , Member, IEEE, Ming Ding , Senior Member, IEEE, Chao C",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Wei_MemorizationDeepLearningSurvey_en.pdf",
+  "sha256": "d60efee9b09d30c4dbc98480d0f607caf041b25cbf4fd7c55167e54cc59c196b",
+  "size": 1308578,
+  "pdf_url": "https://arxiv.org/pdf/2406.03880v1",
+  "version_label": "arXiv 2406.03880v1",
+  "pages": 26,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0037": {
+  "tries": [
+   {
+    "label": "arXiv 2403.06871v1",
+    "url": "https://arxiv.org/pdf/2403.06871v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2403.06871v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 38,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "On the Generalization Ability of Unsupervised Pretraining Yuyang Deng Junyuan Hong Jiayu Zhou Mehrdad Mahdavi Penn State University Michigan state university Michigan state university Penn State Unive",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Deng_GeneralizationAbilityUnsupervisedPretrai_en.pdf",
+  "sha256": "ec3859e5e784427705d9e4e48294b38ae714967dce0a2757d6144795297a1abb",
+  "size": 990199,
+  "pdf_url": "https://arxiv.org/pdf/2403.06871v1",
+  "version_label": "arXiv 2403.06871v1",
+  "pages": 38,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0038": {
+  "tries": [
+   {
+    "label": "arXiv 2405.01964v3",
+    "url": "https://arxiv.org/pdf/2405.01964v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.01964v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 25,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Position: Understanding LLMs Requires More Than Statistical Generalization Patrik Reizinger * 1 Szilvia Ujváry * 2 3 Anna Mészáros * 2 Anna Kerekes* 4 5 Wieland Brendel 1 6 7 Ferenc Huszár† 2 Abstract",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Reizinger_Position_en.pdf",
+  "sha256": "8b9b4e67c4d9513719e91d5613ffa9f5441df6cbde6b6d16c0df0dafb7ee020f",
+  "size": 821455,
+  "pdf_url": "https://arxiv.org/pdf/2405.01964v3",
+  "version_label": "arXiv 2405.01964v3",
+  "pages": 25,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0039": {
+  "tries": [
+   {
+    "label": "arXiv 2312.09390v1",
+    "url": "https://arxiv.org/pdf/2312.09390v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2312.09390v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 49,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "WEAK -TO-STRONG GENERALIZATION : E LICITING STRONG CAPABILITIES WITH WEAK SUPERVISION Collin Burns∗ Pavel Izmailov∗ Jan Hendrik Kirchner∗ Bowen Baker∗ Leo Gao∗ Leopold Aschenbrenner∗ Yining Chen∗ Adri",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2023_Burns_WeakToStrongGeneralization_en.pdf",
+  "sha256": "720656b49d4c00dac26d6ebe10dad0d8482d3bcc87640a66b73867730b89515f",
+  "size": 2299371,
+  "pdf_url": "https://arxiv.org/pdf/2312.09390v1",
+  "version_label": "arXiv 2312.09390v1",
+  "pages": 49,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0040": {
+  "tries": [
+   {
+    "label": "arXiv 2405.16043v1",
+    "url": "https://arxiv.org/pdf/2405.16043v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.16043v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 36,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Theoretical Analysis of Weak-to-Strong Generalization Hunter Lang MIT David Sontag MIT Aravindan Vijayaraghavan Northwestern University Abstract Strong student models can learn from weaker teachers: w",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Lang_TheoreticalAnalysisWeakStrong_en.pdf",
+  "sha256": "3e58305d87db68fb6f2959cf3eda0ad2e33a4d880e4a149c9073441fd46694a9",
+  "size": 1012446,
+  "pdf_url": "https://arxiv.org/pdf/2405.16043v1",
+  "version_label": "arXiv 2405.16043v1",
+  "pages": 36,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0041": {
+  "tries": [
+   {
+    "label": "arXiv 2405.15116v2",
+    "url": "https://arxiv.org/pdf/2405.15116v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.15116v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 19,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Quantifying the Gain in Weak-to-Strong Generalization Moses Charikar Stanford University moses@cs.stanford.edu Chirag Pabbaraju Stanford University cpabbara@cs.stanford.edu Kirankumar Shiragur Microso",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Charikar_QuantifyingGainWeakStrong_en.pdf",
+  "sha256": "de61a0b77c9c2743dbf6d4d964ed94c37231e121f0e676dd7a63bb32901bcbd8",
+  "size": 1016048,
+  "pdf_url": "https://arxiv.org/pdf/2405.15116v2",
+  "version_label": "arXiv 2405.15116v2",
+  "pages": 19,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0042": {
+  "tries": [
+   {
+    "label": "arXiv 2410.22854v3",
+    "url": "https://arxiv.org/pdf/2410.22854v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2410.22854v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 145,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "first_text_head": "Hyperparameter Optimization in Machine Learning Suggested Citation:Luca Franceschi, Michele Donini, Valerio Perrone, Aaron Klein, Cédric Archambeau, Matthias Seeger, Massimiliano Pontil and Paolo Fras",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Franceschi_HyperparameterOptimizationMachineLearnin_en.pdf",
+  "sha256": "fde08e803653821a01fad31bf5653630733eddfa6755663ff7265c11714b27e2",
+  "size": 5647649,
+  "pdf_url": "https://arxiv.org/pdf/2410.22854v3",
+  "version_label": "arXiv 2410.22854v3",
+  "pages": 145,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.998
+ },
+ "MLP0043": {
+  "tries": [
+   {
+    "label": "arXiv 2405.05968v2",
+    "url": "https://arxiv.org/pdf/2405.05968v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2405.05968v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 40,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "first_text_head": "1–40 A Universal Growth Rate for Learning with Smooth Surrogate Losses Anqi Mao AQMAO @CIMS .NYU .EDU Courant Institute of Mathematical Sciences, New York Mehryar Mohri MOHRI @GOOGLE .COM Google Resea",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Mao_UniversalGrowthRateLearning_en.pdf",
+  "sha256": "e3096f5c8e6d661a4603abf65b87b87fa96459521d25ba85042bc2d027747b53",
+  "size": 634615,
+  "pdf_url": "https://arxiv.org/pdf/2405.05968v2",
+  "version_label": "arXiv 2405.05968v2",
+  "pages": 40,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.997
+ },
+ "MLP0044": {
+  "tries": [
+   {
+    "label": "arXiv 2407.13722v2",
+    "url": "https://arxiv.org/pdf/2407.13722v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2407.13722v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 42,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "first_text_head": "Proceedings of Machine Learning Research vol 272:1–42, 2025 36th International Conference on Algorithmic Learning Theory EnhancedH-Consistency Bounds Anqi Mao AQMAO@CIMS.NYU.EDU Courant Institute of M",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Mao_EnhancedHConsistencyBounds_en.pdf",
+  "sha256": "d99c8080d271eb1e3888317e25a09ad3f52de294cfdf6cf12acac2f98678363d",
+  "size": 568570,
+  "pdf_url": "https://arxiv.org/pdf/2407.13722v2",
+  "version_label": "arXiv 2407.13722v2",
+  "pages": 42,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.997
+ },
+ "MLP0045": {
+  "tries": [
+   {
+    "label": "arXiv 2402.04376v3",
+    "url": "https://arxiv.org/pdf/2402.04376v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2402.04376v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 45,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.986,
+    "first_text_head": "Scaling laws for learning with real and surrogate data Ayush Jain∗ Andrea Montanari∗† Eren Sasoglu∗ December 5, 2024 Abstract Collecting large quantities of high-quality data can be prohibitively expe",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Jain_ScalingLawsLearningReal_en.pdf",
+  "sha256": "ff5cd01668465bf84375784dabd10d52221427d0451d9dea97da30bbe761fc78",
+  "size": 1463931,
+  "pdf_url": "https://arxiv.org/pdf/2402.04376v3",
+  "version_label": "arXiv 2402.04376v3",
+  "pages": 45,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.986
+ },
+ "MLP0046": {
+  "tries": [
+   {
+    "label": "arXiv 2501.16265v2",
+    "url": "https://arxiv.org/pdf/2501.16265v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2501.16265v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 40,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "first_text_head": "Training Dynamics of In-Context Learning in Linear Attention Yedi Zhang1 Aaditya K. Singh 1 Peter E. Latham 1 * Andrew Saxe 1 2 * Abstract While attention-based models have demonstrated the remarkable",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2025_Zhang_TrainingDynamicsContextLearning_en.pdf",
+  "sha256": "7149120cccaed6bee1bacd49d784a2451bd6e465f2adc5cd18939fd432f99c8b",
+  "size": 2071667,
+  "pdf_url": "https://arxiv.org/pdf/2501.16265v2",
+  "version_label": "arXiv 2501.16265v2",
+  "pages": 40,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.997
+ },
+ "MLP0047": {
+  "tries": [
+   {
+    "label": "arXiv 2410.04642v3",
+    "url": "https://arxiv.org/pdf/2410.04642v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2410.04642v3",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 40,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.988,
+    "first_text_head": "Preprint THE OPTIMIZATION LANDSCAPE OF SGD ACROSS THE FEATURE LEARNING STRENGTH Alexander Atanasov∗,1,2,4, Alexandru Meterez∗,2, James B Simon∗,3, , Cengiz Pehlevan2,4,5 1 Department of Physics, Harva",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Atanasov_OptimizationLandscapeSGDAcross_en.pdf",
+  "sha256": "ad3632fa7671129366fb2d7c87597184d14c8bfbd14b4c30ac44f5cfec6db4b2",
+  "size": 13280542,
+  "pdf_url": "https://arxiv.org/pdf/2410.04642v3",
+  "version_label": "arXiv 2410.04642v3",
+  "pages": 40,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.988
+ },
+ "MLP0048": {
+  "tries": [
+   {
+    "label": "arXiv 2403.17592v1",
+    "url": "https://arxiv.org/pdf/2403.17592v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2403.17592v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 46,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.996,
+    "first_text_head": "On the Benefits of Over-parameterization for Out-of-Distribution Generalization Yifan Hao∗† Yong Lin∗‡ Difan Zou§ Tong Zhang¶ Abstract In recent years, machine learning models have achieved success ba",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Hao_BenefitsOverParameterizationOut_en.pdf",
+  "sha256": "f3e674a453330f73e7cc93069053170113e28ca1b46954f78e5a185c9c20bbf2",
+  "size": 1273626,
+  "pdf_url": "https://arxiv.org/pdf/2403.17592v1",
+  "version_label": "arXiv 2403.17592v1",
+  "pages": 46,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.996
+ },
+ "MLP0049": {
+  "tries": [
+   {
+    "label": "arXiv 2407.02754v2",
+    "url": "https://arxiv.org/pdf/2407.02754v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2407.02754v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 47,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "first_text_head": "Is Cross-Validation the Gold Standard to Evaluate Model Performance? Garud Iyengar, Henry Lam, Tianyu Wang∗ Department of Industrial Engineering and Operations Research Columbia University {gi10, khl2",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Iyengar_CrossValidationGoldStandard_en.pdf",
+  "sha256": "986d0c9a6396b0a91f902895599158f90526f432c6e6fad85ba0319c9f4d0c12",
+  "size": 1314033,
+  "pdf_url": "https://arxiv.org/pdf/2407.02754v2",
+  "version_label": "arXiv 2407.02754v2",
+  "pages": 47,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.997
+ },
+ "MLP0050": {
+  "tries": [
+   {
+    "label": "arXiv 2502.07551v1",
+    "url": "https://arxiv.org/pdf/2502.07551v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2502.07551v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 21,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "first_text_head": "Published as a conference paper at ICLR 2024 EARLY STOPPING AGAINST LABEL NOISE WITHOUT VALIDATION DATA Suqin Yuan1 Lei Feng2∗ Tongliang Liu1∗ 1 Sydney AI Centre, School of Computer Science, The Unive",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2025_Yuan_EarlyStoppingAgainstLabel_en.pdf",
+  "sha256": "1d5ae931d12e713862937a43ae66e5c43d06c8c6d11f58a84817781ffd786ab3",
+  "size": 2036025,
+  "pdf_url": "https://arxiv.org/pdf/2502.07551v1",
+  "version_label": "arXiv 2502.07551v1",
+  "pages": 21,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 1.0
+ },
+ "MLP0051": {
+  "tries": [
+   {
+    "label": "arXiv 2410.18938v1",
+    "url": "https://arxiv.org/pdf/2410.18938v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2410.18938v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 47,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.995,
+    "first_text_head": "A Random Matrix Theory Perspective on the Spectrum of Learned Features and Asymptotic Generalization Capabilities Yatin Dandi1,2, Luca Pesce2, Hugo Cui1,5, Florent Krzakala2, Yue M. Lu3, and Bruno Lou",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2024_Dandi_RandomMatrixTheoryPerspective_en.pdf",
+  "sha256": "75c47888f0639549487fdb77aa7ecb971ae12a89eab398e2e5aa4b96c05ce3a2",
+  "size": 1005951,
+  "pdf_url": "https://arxiv.org/pdf/2410.18938v1",
+  "version_label": "arXiv 2410.18938v1",
+  "pages": 47,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.995
+ },
+ "MLP0052": {
+  "tries": [
+   {
+    "label": "arXiv 2309.04381v2",
+    "url": "https://arxiv.org/pdf/2309.04381v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2309.04381v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 228,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "first_text_head": "Generalization Bounds: Perspectives from Information Theory and PAC-Bayes Fredrik Hellström University College London f.hellstrom@ucl.ac.uk Giuseppe Durisi Chalmers University of Technology durisi@cha",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2023_Hellstrom_GeneralizationBounds_en.pdf",
+  "sha256": "8c28235b1b67bf716587701d62e5279547051f8e6b0779a8c8b62ae4acb00d1e",
+  "size": 2458042,
+  "pdf_url": "https://arxiv.org/pdf/2309.04381v2",
+  "version_label": "arXiv 2309.04381v2",
+  "pages": 228,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.999
+ },
+ "MLP0053": {
+  "tries": [
+   {
+    "label": "arXiv 2104.00673v4",
+    "url": "https://arxiv.org/pdf/2104.00673v4",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/2104.00673v4",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 43,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.994,
+    "first_text_head": "Cross-validation: what does it estimate and how well does it do it? Stephen Bates∗, Trevor Hastie†, and Robert Tibshirani‡ July 19, 2022 Abstract Cross-validation is a widely-used technique to estimat",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2021_Bates_CrossValidation_en.pdf",
+  "sha256": "537095165dbacb9ec02486aae70de1e90ded0c110b1883d0fdade6a0651d0ddb",
+  "size": 3342367,
+  "pdf_url": "https://arxiv.org/pdf/2104.00673v4",
+  "version_label": "arXiv 2104.00673v4",
+  "pages": 43,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.994
+ },
+ "MLP0054": {
+  "tries": [
+   {
+    "label": "arXiv 1812.11118v2",
+    "url": "https://arxiv.org/pdf/1812.11118v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/1812.11118v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 23,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.993,
+    "first_text_head": "Reconciling modern machine learning practice and the bias-variance trade-oﬀ Mikhail Belkina, Daniel Hsub, Siyuan Maa, and Soumik Mandala aThe Ohio State University, Columbus, OH bColumbia University, ",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2018_Belkin_ReconcilingModernMachineLearning_en.pdf",
+  "sha256": "aa968bc49b5676254e5a4bb045435b9c508e2a1d3ce45f1b0cce645fcedfe79b",
+  "size": 1171814,
+  "pdf_url": "https://arxiv.org/pdf/1812.11118v2",
+  "version_label": "arXiv 1812.11118v2",
+  "pages": 23,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.993
+ },
+ "MLP0055": {
+  "tries": [
+   {
+    "label": "arXiv 1611.03530v2",
+    "url": "https://arxiv.org/pdf/1611.03530v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/1611.03530v2",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 15,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.996,
+    "first_text_head": "UNDERSTANDING DEEP LEARNING REQUIRES RE - THINKING GENERALIZATION Chiyuan Zhang∗ Massachusetts Institute of Technology chiyuan@mit.edu Samy Bengio Google Brain bengio@goog/l.Vare.com Moritz Hardt Goog",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2016_Zhang_UnderstandingDeepLearningRequires_en.pdf",
+  "sha256": "a71f1294a021cebc6939ec977fc073b6d7b4f183950eba761ec55364d30b729f",
+  "size": 403563,
+  "pdf_url": "https://arxiv.org/pdf/1611.03530v2",
+  "version_label": "arXiv 1611.03530v2",
+  "pages": 15,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.996
+ },
+ "MLP0056": {
+  "tries": [
+   {
+    "label": "arXiv 1912.02178v1",
+    "url": "https://arxiv.org/pdf/1912.02178v1",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/pdf/1912.02178v1",
+    "content_type": "application/pdf",
+    "magic_ok": true,
+    "pages": 33,
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "first_text_head": "Fantastic Generalization Measures and Where to Find Them Yiding Jiang∗, Behnam Neyshabur∗, Hossein Mobahi Dilip Krishnan, Samy Bengio Google {ydjiang,neyshabur,hmobahi,dilipkay,bengio}@google.com Abst",
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "papers/2019_Jiang_FantasticGeneralizationMeasuresWhere_en.pdf",
+  "sha256": "3013ecca69b967cc39702460b9e56d47ea7c461c3082a040c47d89402991eac0",
+  "size": 1006926,
+  "pdf_url": "https://arxiv.org/pdf/1912.02178v1",
+  "version_label": "arXiv 1912.02178v1",
+  "pages": 33,
+  "title_match": 1.0,
+  "ascii_letter_ratio": 0.998
+ }
+}

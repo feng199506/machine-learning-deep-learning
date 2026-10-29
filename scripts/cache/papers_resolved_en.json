@@ -1,0 +1,2641 @@
+{
+ "MLP0001": {
+  "id": "MLP0001",
+  "key": "arxiv:2409.15156",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "Rethinking Conventional Wisdom in Machine Learning: From Generalization to Scaling",
+  "title": "Rethinking Conventional Wisdom in Machine Learning: From Generalization to Scaling",
+  "authors": [
+   "Lechao Xiao"
+  ],
+  "arxiv": "2409.15156",
+  "latest_version": "2409.15156v2",
+  "doi": "10.48550/arXiv.2409.15156",
+  "first_public": "2024-09-23",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-02-14",
+  "window": "近三年",
+  "abstract": "The remarkable success of large language pretraining and the discovery of scaling laws signify a paradigm shift in machine learning. Notably, the primary objective has evolved from minimizing generalization error to reducing approximation error, and the most effective strategy has transitioned from regularization (in a broad sense) to scaling up models. This raises a critical question: Do the established principles that proved successful in the generalization-centric era remain valid in this new era of scaling? This paper examines several influential regularization-based principles that may no longer hold true in the scaling-centric, large language model (LLM) era. These principles include explicit L2 regularization and implicit regularization through small batch sizes and large learning rates. Additionally, we identify a new phenomenon termed ``scaling law crossover,'' where two scaling curves intersect at a certain scale, implying that methods effective at smaller scales may not generalize to larger ones. Together, these observations highlight two fundamental questions within this new paradigm: $\\bullet$ Guiding Principles for Scaling: If regularization is no longer the primary guiding principle for model design, what new principles are emerging to guide scaling? $\\bullet$ Model Comparison at Scale: How to reliably and effectively compare models at the scale where only a single experiment is feasible?",
+  "arxiv_comment": "25 pages",
+  "journal_ref": "",
+  "s2": {
+   "title": "Rethinking Conventional Wisdom in Machine Learning: From Generalization to Scaling",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-09-23",
+   "doi": "10.48550/arXiv.2409.15156",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "对比\"泛化中心\"与\"规模中心\"两种范式，梳理正则化、过拟合等传统观念在大模型时代的变化",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:3"
+  ]
+ },
+ "MLP0002": {
+  "id": "MLP0002",
+  "key": "arxiv:2503.02113",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Deep Learning is Not So Mysterious or Different",
+  "title": "Deep Learning is Not So Mysterious or Different",
+  "authors": [
+   "Andrew Gordon Wilson"
+  ],
+  "arxiv": "2503.02113",
+  "latest_version": "2503.02113v2",
+  "doi": "10.48550/arXiv.2503.02113",
+  "first_public": "2025-03-03",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-07-10",
+  "window": "近三年",
+  "abstract": "Deep neural networks are often seen as different from other model classes by defying conventional notions of generalization. Popular examples of anomalous generalization behaviour include benign overfitting, double descent, and the success of overparametrization. We argue that these phenomena are not distinct to neural networks, or particularly mysterious. Moreover, this generalization behaviour can be intuitively understood, and rigorously characterized, using long-standing generalization frameworks such as PAC-Bayes and countable hypothesis bounds. We present soft inductive biases as a key unifying principle in explaining these phenomena: rather than restricting the hypothesis space to avoid overfitting, embrace a flexible hypothesis space, with a soft preference for simpler solutions that are consistent with the data. This principle can be encoded in many model classes, and thus deep learning is not as mysterious or different from other model classes as it might seem. However, we also highlight how deep learning is relatively distinct in other ways, such as its ability for representation learning, phenomena such as mode connectivity, and its relative universality.",
+  "arxiv_comment": "ICML 2025",
+  "journal_ref": "",
+  "s2": {
+   "title": "Deep Learning is Not So Mysterious or Different",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2025,
+   "date": "2025-03-03",
+   "doi": "10.48550/arXiv.2503.02113",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "用 PAC-Bayes/软归纳偏置统一解释良性过拟合、双下降等\"深度学习反常\"现象",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:4"
+  ]
+ },
+ "MLP0003": {
+  "id": "MLP0003",
+  "key": "arxiv:2310.18988",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C02"
+  ],
+  "kind": "R",
+  "seed_title": "A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning",
+  "title": "A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning",
+  "authors": [
+   "Alicia Curth",
+   "Alan Jeffares",
+   "Mihaela van der Schaar"
+  ],
+  "arxiv": "2310.18988",
+  "latest_version": "2310.18988v1",
+  "doi": "10.48550/arXiv.2310.18988",
+  "first_public": "2023-10-29",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2023-10-29",
+  "window": "近三年",
+  "abstract": "Conventional statistical wisdom established a well-understood relationship between model complexity and prediction error, typically presented as a U-shaped curve reflecting a transition between under- and overfitting regimes. However, motivated by the success of overparametrized neural networks, recent influential work has suggested this theory to be generally incomplete, introducing an additional regime that exhibits a second descent in test error as the parameter count p grows past sample size n - a phenomenon dubbed double descent. While most attention has naturally been given to the deep-learning setting, double descent was shown to emerge more generally across non-neural models: known cases include linear regression, trees, and boosting. In this work, we take a closer look at evidence surrounding these more classical statistical machine learning methods and challenge the claim that observed cases of double descent truly extend the limits of a traditional U-shaped complexity-generalization curve therein. We show that once careful consideration is given to what is being plotted on the x-axes of their double descent plots, it becomes apparent that there are implicitly multiple complexity axes along which the parameter count grows. We demonstrate that the second descent appears exactly (and only) when and where the transition between these underlying axes occurs, and that its location is thus not inherently tied to the interpolation threshold p=n. We then gain further insight by adopting a classical nonparametric statistics perspective. We interpret the investigated methods as smoothers and propose a generalized measure for the effective number of parameters they use on unseen examples, using which we find that their apparent double descent curves indeed fold back into more traditional convex shapes - providing a resolution to tensions between double descent and statistical intuition.",
+  "arxiv_comment": "To appear in the Proceedings of the 37th Conference on Neural Information Processing Systems (NeurIPS 2023)",
+  "journal_ref": "",
+  "s2": {
+   "title": "A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2023,
+   "date": "2023-10-29",
+   "doi": "10.48550/arXiv.2310.18988",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "指出双下降源于参数计数方式，重新审视经典模型复杂度",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:5"
+  ]
+ },
+ "MLP0004": {
+  "id": "MLP0004",
+  "key": "arxiv:2409.18842",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Classical Statistical (In-Sample) Intuitions Don't Generalize Well: A Note on Bias-Variance Tradeoffs, Overfitting and Moving from Fixed to Random Designs",
+  "title": "Classical Statistical (In-Sample) Intuitions Don't Generalize Well: A Note on Bias-Variance Tradeoffs, Overfitting and Moving from Fixed to Random Designs",
+  "authors": [
+   "Alicia Curth"
+  ],
+  "arxiv": "2409.18842",
+  "latest_version": "2409.18842v1",
+  "doi": "10.48550/arXiv.2409.18842",
+  "first_public": "2024-09-27",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-09-27",
+  "window": "近三年",
+  "abstract": "The sudden appearance of modern machine learning (ML) phenomena like double descent and benign overfitting may leave many classically trained statisticians feeling uneasy -- these phenomena appear to go against the very core of statistical intuitions conveyed in any introductory class on learning from data. The historical lack of earlier observation of such phenomena is usually attributed to today's reliance on more complex ML methods, overparameterization, interpolation and/or higher data dimensionality. In this note, we show that there is another reason why we observe behaviors today that appear at odds with intuitions taught in classical statistics textbooks, which is much simpler to understand yet rarely discussed explicitly. In particular, many intuitions originate in fixed design settings, in which in-sample prediction error (under resampling of noisy outcomes) is of interest, while modern ML evaluates its predictions in terms of generalization error, i.e. out-of-sample prediction error in random designs. Here, we highlight that this simple move from fixed to random designs has (perhaps surprisingly) far-reaching consequences on textbook intuitions relating to the bias-variance tradeoff, and comment on the resulting (im)possibility of observing double descent and benign overfitting in fixed versus random designs.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Classical Statistical (In-Sample) Intuitions Don't Generalize Well: A Note on Bias-Variance Tradeoffs, Overfitting and Moving from Fixed to Random Designs",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-09-27",
+   "doi": "10.48550/arXiv.2409.18842",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "区分固定设计与随机设计，澄清偏差-方差与过拟合直觉的适用条件",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:6"
+  ]
+ },
+ "MLP0005": {
+  "id": "MLP0005",
+  "key": "arxiv:2312.17173",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C06"
+  ],
+  "kind": "R",
+  "seed_title": "Non-Vacuous Generalization Bounds for Large Language Models",
+  "title": "Non-Vacuous Generalization Bounds for Large Language Models",
+  "authors": [
+   "Sanae Lotfi",
+   "Marc Finzi",
+   "Yilun Kuang",
+   "Tim G. J. Rudner",
+   "Micah Goldblum",
+   "Andrew Gordon Wilson"
+  ],
+  "arxiv": "2312.17173",
+  "latest_version": "2312.17173v3",
+  "doi": "10.48550/arXiv.2312.17173",
+  "first_public": "2023-12-28",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-07-17",
+  "window": "近三年",
+  "abstract": "Modern language models can contain billions of parameters, raising the question of whether they can generalize beyond the training data or simply parrot their training corpora. We provide the first non-vacuous generalization bounds for pretrained large language models (LLMs), indicating that language models are capable of discovering regularities that generalize to unseen data. In particular, we derive a compression bound that is valid for the unbounded log-likelihood loss using prediction smoothing, and we extend the bound to handle subsampling, accelerating bound computation by orders of magnitude on massive datasets. To achieve the extreme level of compression required for non-vacuous bounds, we devise SubLoRA, a simple low-dimensional nonlinear parameterization that leads to non-vacuous generalization bounds for models with nearly a billion parameters. Finally, we use our bounds to understand LLM generalization and find that larger models have better generalization bounds and are more compressible than smaller models.",
+  "arxiv_comment": "ICML 2024",
+  "journal_ref": "",
+  "s2": {
+   "title": "Non-Vacuous Generalization Bounds for Large Language Models",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2023,
+   "date": "2023-12-28",
+   "doi": "10.48550/arXiv.2312.17173",
+   "journal": "",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "首个对数十亿参数语言模型给出非空泛化界的工作",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:7"
+  ]
+ },
+ "MLP0006": {
+  "id": "MLP0006",
+  "key": "arxiv:2407.18158",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C06"
+  ],
+  "kind": "R",
+  "seed_title": "Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models",
+  "title": "Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models",
+  "authors": [
+   "Sanae Lotfi",
+   "Yilun Kuang",
+   "Brandon Amos",
+   "Micah Goldblum",
+   "Marc Finzi",
+   "Andrew Gordon Wilson"
+  ],
+  "arxiv": "2407.18158",
+  "latest_version": "2407.18158v1",
+  "doi": "10.48550/arXiv.2407.18158",
+  "first_public": "2024-07-25",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-07-25",
+  "window": "近三年",
+  "abstract": "Large language models (LLMs) with billions of parameters excel at predicting the next token in a sequence. Recent work computes non-vacuous compression-based generalization bounds for LLMs, but these bounds are vacuous for large models at the billion-parameter scale. Moreover, these bounds are obtained through restrictive compression techniques, bounding compressed models that generate low-quality text. Additionally, the tightness of these existing bounds depends on the number of IID documents in a training set rather than the much larger number of non-IID constituent tokens, leaving untapped potential for tighter bounds. In this work, we instead use properties of martingales to derive generalization bounds that benefit from the vast number of tokens in LLM training sets. Since a dataset contains far more tokens than documents, our generalization bounds not only tolerate but actually benefit from far less restrictive compression schemes. With Monarch matrices, Kronecker factorizations, and post-training quantization, we achieve non-vacuous generalization bounds for LLMs as large as LLaMA2-70B. Unlike previous approaches, our work achieves the first non-vacuous bounds for models that are deployed in practice and generate high-quality text.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-07-25",
+   "doi": "10.48550/arXiv.2407.18158",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "以 token 为样本推导更大 LLM 的非空泛化界",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:8"
+  ]
+ },
+ "MLP0007": {
+  "id": "MLP0007",
+  "key": "arxiv:2405.20233",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Grokfast: Accelerated Grokking by Amplifying Slow Gradients",
+  "title": "Grokfast: Accelerated Grokking by Amplifying Slow Gradients",
+  "authors": [
+   "Jaerin Lee",
+   "Bong Gyun Kang",
+   "Kihoon Kim",
+   "Kyoung Mu Lee"
+  ],
+  "arxiv": "2405.20233",
+  "latest_version": "2405.20233v2",
+  "doi": "10.48550/arXiv.2405.20233",
+  "first_public": "2024-05-30",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-06-05",
+  "window": "近三年",
+  "abstract": "One puzzling artifact in machine learning dubbed grokking is where delayed generalization is achieved tenfolds of iterations after near perfect overfitting to the training data. Focusing on the long delay itself on behalf of machine learning practitioners, our goal is to accelerate generalization of a model under grokking phenomenon. By regarding a series of gradients of a parameter over training iterations as a random signal over time, we can spectrally decompose the parameter trajectories under gradient descent into two components: the fast-varying, overfitting-yielding component and the slow-varying, generalization-inducing component. This analysis allows us to accelerate the grokking phenomenon more than $\\times 50$ with only a few lines of code that amplifies the slow-varying components of gradients. The experiments show that our algorithm applies to diverse tasks involving images, languages, and graphs, enabling practical availability of this peculiar artifact of sudden generalization. Our code is available at https://github.com/ironjr/grokfast.",
+  "arxiv_comment": "17 pages, 13 figures. Typo fixed. Project page: https://jaerinlee.com/research/grokfast",
+  "journal_ref": "",
+  "s2": {
+   "title": "Grokfast: Accelerated Grokking by Amplifying Slow Gradients",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-05-30",
+   "doi": "10.48550/arXiv.2405.20233",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "从频域角度解释并加速 grokking（延迟泛化）",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:9"
+  ]
+ },
+ "MLP0008": {
+  "id": "MLP0008",
+  "key": "arxiv:2501.04697",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "Grokking at the Edge of Numerical Stability",
+  "title": "Grokking at the Edge of Numerical Stability",
+  "authors": [
+   "Lucas Prieto",
+   "Melih Barsbey",
+   "Pedro A. M. Mediano",
+   "Tolga Birdal"
+  ],
+  "arxiv": "2501.04697",
+  "latest_version": "2501.04697v2",
+  "doi": "10.48550/arXiv.2501.04697",
+  "first_public": "2025-01-08",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-05-19",
+  "window": "近三年",
+  "abstract": "Grokking, the sudden generalization that occurs after prolonged overfitting, is a surprising phenomenon challenging our understanding of deep learning. Although significant progress has been made in understanding grokking, the reasons behind the delayed generalization and its dependence on regularization remain unclear. In this work, we argue that without regularization, grokking tasks push models to the edge of numerical stability, introducing floating point errors in the Softmax function, which we refer to as Softmax Collapse (SC). We demonstrate that SC prevents grokking and that mitigating SC enables grokking without regularization. Investigating the root cause of SC, we find that beyond the point of overfitting, the gradients strongly align with what we call the naïve loss minimization (NLM) direction. This component of the gradient does not alter the model's predictions but decreases the loss by scaling the logits, typically by scaling the weights along their current direction. We show that this scaling of the logits explains the delay in generalization characteristic of grokking and eventually leads to SC, halting further learning. To validate our hypotheses, we introduce two key contributions that address the challenges in grokking tasks: StableMax, a new activation function that prevents SC and enables grokking without regularization, and $\\perp$Grad, a training algorithm that promotes quick generalization in grokking tasks by preventing NLM altogether. These contributions provide new insights into grokking, elucidating its delayed generalization, reliance on regularization, and the effectiveness of existing grokking-inducing methods. Code for this paper is available at https://github.com/LucasPrietoAl/grokking-at-the-edge-of-numerical-stability.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Grokking at the Edge of Numerical Stability",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2025,
+   "date": "2025-01-08",
+   "doi": "10.48550/arXiv.2501.04697",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "将 grokking 与 softmax 数值稳定性及 logit 增长联系起来",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:10"
+  ]
+ },
+ "MLP0009": {
+  "id": "MLP0009",
+  "key": "arxiv:2405.19454",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Deep Grokking: Would Deep Neural Networks Generalize Better?",
+  "title": "Deep Grokking: Would Deep Neural Networks Generalize Better?",
+  "authors": [
+   "Simin Fan",
+   "Razvan Pascanu",
+   "Martin Jaggi"
+  ],
+  "arxiv": "2405.19454",
+  "latest_version": "2405.19454v1",
+  "doi": "10.48550/arXiv.2405.19454",
+  "first_public": "2024-05-29",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-05-29",
+  "window": "近三年",
+  "abstract": "Recent research on the grokking phenomenon has illuminated the intricacies of neural networks' training dynamics and their generalization behaviors. Grokking refers to a sharp rise of the network's generalization accuracy on the test set, which occurs long after an extended overfitting phase, during which the network perfectly fits the training set. While the existing research primarily focus on shallow networks such as 2-layer MLP and 1-layer Transformer, we explore grokking on deep networks (e.g. 12-layer MLP). We empirically replicate the phenomenon and find that deep neural networks can be more susceptible to grokking than its shallower counterparts. Meanwhile, we observe an intriguing multi-stage generalization phenomenon when increase the depth of the MLP model where the test accuracy exhibits a secondary surge, which is scarcely seen on shallow models. We further uncover compelling correspondences between the decreasing of feature ranks and the phase transition from overfitting to the generalization stage during grokking. Additionally, we find that the multi-stage generalization phenomenon often aligns with a double-descent pattern in feature ranks. These observations suggest that internal feature rank could serve as a more promising indicator of the model's generalization behavior compared to the weight-norm. We believe our work is the first one to dive into grokking in deep neural networks, and investigate the relationship of feature rank and generalization performance.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Deep Grokking: Would Deep Neural Networks Generalize Better?",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-05-29",
+   "doi": "10.48550/arXiv.2405.19454",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "研究网络深度对 grokking 与泛化的影响",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:11"
+  ]
+ },
+ "MLP0010": {
+  "id": "MLP0010",
+  "key": "arxiv:2407.20199",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C02"
+  ],
+  "kind": "R",
+  "seed_title": "Emergence in non-neural models: grokking modular arithmetic via average gradient outer product",
+  "title": "Emergence in non-neural models: grokking modular arithmetic via average gradient outer product",
+  "authors": [
+   "Neil Mallinar",
+   "Daniel Beaglehole",
+   "Libin Zhu",
+   "Adityanarayanan Radhakrishnan",
+   "Parthe Pandit",
+   "Mikhail Belkin"
+  ],
+  "arxiv": "2407.20199",
+  "latest_version": "2407.20199v3",
+  "doi": "10.48550/arXiv.2407.20199",
+  "first_public": "2024-07-29",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-07-09",
+  "window": "近三年",
+  "abstract": "Neural networks trained to solve modular arithmetic tasks exhibit grokking, a phenomenon where the test accuracy starts improving long after the model achieves 100% training accuracy in the training process. It is often taken as an example of \"emergence\", where model ability manifests sharply through a phase transition. In this work, we show that the phenomenon of grokking is not specific to neural networks nor to gradient descent-based optimization. Specifically, we show that this phenomenon occurs when learning modular arithmetic with Recursive Feature Machines (RFM), an iterative algorithm that uses the Average Gradient Outer Product (AGOP) to enable task-specific feature learning with general machine learning models. When used in conjunction with kernel machines, iterating RFM results in a fast transition from random, near zero, test accuracy to perfect test accuracy. This transition cannot be predicted from the training loss, which is identically zero, nor from the test loss, which remains constant in initial iterations. Instead, as we show, the transition is completely determined by feature learning: RFM gradually learns block-circulant features to solve modular arithmetic. Paralleling the results for RFM, we show that neural networks that solve modular arithmetic also learn block-circulant features. Furthermore, we present theoretical evidence that RFM uses such block-circulant features to implement the Fourier Multiplication Algorithm, which prior work posited as the generalizing solution neural networks learn on these tasks. Our results demonstrate that emergence can result purely from learning task-relevant features and is not specific to neural architectures nor gradient descent-based optimization methods. Furthermore, our work provides more evidence for AGOP as a key mechanism for feature learning in neural networks.",
+  "arxiv_comment": "Accepted to ICML 2025 (Oral presentation & Spotlight poster)",
+  "journal_ref": "",
+  "s2": {
+   "title": "Emergence in non-neural models: grokking modular arithmetic via average gradient outer product",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-07-29",
+   "doi": "10.48550/arXiv.2407.20199",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "在核机器（非神经网络）中复现 grokking，说明特征学习是关键",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:12"
+  ]
+ },
+ "MLP0011": {
+  "id": "MLP0011",
+  "key": "arxiv:2402.07043",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C06"
+  ],
+  "kind": "R",
+  "seed_title": "A Tale of Tails: Model Collapse as a Change of Scaling Laws",
+  "title": "A Tale of Tails: Model Collapse as a Change of Scaling Laws",
+  "authors": [
+   "Elvis Dohmatob",
+   "Yunzhen Feng",
+   "Pu Yang",
+   "Francois Charton",
+   "Julia Kempe"
+  ],
+  "arxiv": "2402.07043",
+  "latest_version": "2402.07043v2",
+  "doi": "10.48550/arXiv.2402.07043",
+  "first_public": "2024-02-10",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-05-31",
+  "window": "近三年",
+  "abstract": "As AI model size grows, neural scaling laws have become a crucial tool to predict the improvements of large models when increasing capacity and the size of original (human or natural) training data. Yet, the widespread use of popular models means that the ecosystem of online data and text will co-evolve to progressively contain increased amounts of synthesized data. In this paper we ask: How will the scaling laws change in the inevitable regime where synthetic data makes its way into the training corpus? Will future models, still improve, or be doomed to degenerate up to total (model) collapse? We develop a theoretical framework of model collapse through the lens of scaling laws. We discover a wide range of decay phenomena, analyzing loss of scaling, shifted scaling with number of generations, the ''un-learning\" of skills, and grokking when mixing human and synthesized data. Our theory is validated by large-scale experiments with a transformer on an arithmetic task and text generation using the large language model Llama2.",
+  "arxiv_comment": "",
+  "journal_ref": "ICML 2024",
+  "s2": {
+   "title": "A Tale of Tails: Model Collapse as a Change of Scaling Laws",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-02-10",
+   "doi": "10.48550/arXiv.2402.07043",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "从标度律角度分析合成数据导致的模型坍塌",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:13"
+  ]
+ },
+ "MLP0012": {
+  "id": "MLP0012",
+  "key": "arxiv:2404.01413",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C07"
+  ],
+  "kind": "R",
+  "seed_title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+  "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+  "authors": [
+   "Matthias Gerstgrasser",
+   "Rylan Schaeffer",
+   "Apratim Dey",
+   "Rafael Rafailov",
+   "Henry Sleight",
+   "John Hughes",
+   "Tomasz Korbak",
+   "Rajashree Agrawal",
+   "Dhruv Pai",
+   "Andrey Gromov",
+   "Daniel A. Roberts",
+   "Diyi Yang",
+   "David L. Donoho",
+   "Sanmi Koyejo"
+  ],
+  "arxiv": "2404.01413",
+  "latest_version": "2404.01413v2",
+  "doi": "10.48550/arXiv.2404.01413",
+  "first_public": "2024-04-01",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-04-29",
+  "window": "近三年",
+  "abstract": "The proliferation of generative models, combined with pretraining on web-scale data, raises a timely question: what happens when these models are trained on their own generated outputs? Recent investigations into model-data feedback loops proposed that such loops would lead to a phenomenon termed model collapse, under which performance progressively degrades with each model-data feedback iteration until fitted models become useless. However, those studies largely assumed that new data replace old data over time, where an arguably more realistic assumption is that data accumulate over time. In this paper, we ask: what effect does accumulating data have on model collapse? We empirically study this question by pretraining sequences of language models on text corpora. We confirm that replacing the original real data by each generation's synthetic data does indeed tend towards model collapse, then demonstrate that accumulating the successive generations of synthetic data alongside the original real data avoids model collapse; these results hold across a range of model sizes, architectures, and hyperparameters. We obtain similar results for deep generative models on other types of real data: diffusion models for molecule conformation generation and variational autoencoders for image generation. To understand why accumulating data can avoid model collapse, we use an analytically tractable framework introduced by prior work in which a sequence of linear models are fit to the previous models' outputs. Previous work used this framework to show that if data are replaced, the test error increases with the number of model-fitting iterations; we extend this argument to prove that if data instead accumulate, the test error has a finite upper bound independent of the number of iterations, meaning model collapse no longer occurs.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-04-01",
+   "doi": "10.48550/arXiv.2404.01413",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "证明累积真实与合成数据可避免模型坍塌",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:14"
+  ]
+ },
+ "MLP0013": {
+  "id": "MLP0013",
+  "key": "arxiv:2410.04840",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Strong Model Collapse",
+  "title": "Strong Model Collapse",
+  "authors": [
+   "Elvis Dohmatob",
+   "Yunzhen Feng",
+   "Arjun Subramonian",
+   "Julia Kempe"
+  ],
+  "arxiv": "2410.04840",
+  "latest_version": "2410.04840v2",
+  "doi": "10.48550/arXiv.2410.04840",
+  "first_public": "2024-10-07",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-10-08",
+  "window": "近三年",
+  "abstract": "Within the scaling laws paradigm, which underpins the training of large neural networks like ChatGPT and Llama, we consider a supervised regression setting and establish the existance of a strong form of the model collapse phenomenon, a critical performance degradation due to synthetic data in the training corpus. Our results show that even the smallest fraction of synthetic data (e.g., as little as 1\\% of the total training dataset) can still lead to model collapse: larger and larger training sets do not enhance performance. We further investigate whether increasing model size, an approach aligned with current trends in training large language models, exacerbates or mitigates model collapse. In a simplified regime where neural networks are approximated via random projections of tunable size, we both theoretically and empirically show that larger models can amplify model collapse. Interestingly, our theory also indicates that, beyond the interpolation threshold (which can be extremely high for very large datasets), larger models may mitigate the collapse, although they do not entirely prevent it. Our theoretical findings are empirically verified through experiments on language models and feed-forward neural networks for images.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Strong Model Collapse",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-10-07",
+   "doi": "10.48550/arXiv.2410.04840",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "给出少量合成数据即可导致坍塌的理论刻画",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:15"
+  ]
+ },
+ "MLP0014": {
+  "id": "MLP0014",
+  "key": "arxiv:2405.15074",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "4+3 Phases of Compute-Optimal Neural Scaling Laws",
+  "title": "4+3 Phases of Compute-Optimal Neural Scaling Laws",
+  "authors": [
+   "Elliot Paquette",
+   "Courtney Paquette",
+   "Lechao Xiao",
+   "Jeffrey Pennington"
+  ],
+  "arxiv": "2405.15074",
+  "latest_version": "2405.15074v3",
+  "doi": "10.48550/arXiv.2405.15074",
+  "first_public": "2024-05-23",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-04-18",
+  "window": "近三年",
+  "abstract": "We consider the solvable neural scaling model with three parameters: data complexity, target complexity, and model-parameter-count. We use this neural scaling model to derive new predictions about the compute-limited, infinite-data scaling law regime. To train the neural scaling model, we run one-pass stochastic gradient descent on a mean-squared loss. We derive a representation of the loss curves which holds over all iteration counts and improves in accuracy as the model parameter count grows. We then analyze the compute-optimal model-parameter-count, and identify 4 phases (+3 subphases) in the data-complexity/target-complexity phase-plane. The phase boundaries are determined by the relative importance of model capacity, optimizer noise, and embedding of the features. We furthermore derive, with mathematical proof and extensive numerical evidence, the scaling-law exponents in all of these phases, in particular computing the optimal model-parameter-count as a function of floating point operation budget.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "4+3 Phases of Compute-Optimal Neural Scaling Laws",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-05-23",
+   "doi": "10.48550/arXiv.2405.15074",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "可解模型中计算最优标度律的相图",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:16"
+  ]
+ },
+ "MLP0015": {
+  "id": "MLP0015",
+  "key": "arxiv:2406.08466",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Scaling Laws in Linear Regression: Compute, Parameters, and Data",
+  "title": "Scaling Laws in Linear Regression: Compute, Parameters, and Data",
+  "authors": [
+   "Licong Lin",
+   "Jingfeng Wu",
+   "Sham M. Kakade",
+   "Peter L. Bartlett",
+   "Jason D. Lee"
+  ],
+  "arxiv": "2406.08466",
+  "latest_version": "2406.08466v3",
+  "doi": "10.48550/arXiv.2406.08466",
+  "first_public": "2024-06-12",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-06-10",
+  "window": "近三年",
+  "abstract": "Empirically, large-scale deep learning models often satisfy a neural scaling law: the test error of the trained model improves polynomially as the model size and data size grow. However, conventional wisdom suggests the test error consists of approximation, bias, and variance errors, where the variance error increases with model size. This disagrees with the general form of neural scaling laws, which predict that increasing model size monotonically improves performance. We study the theory of scaling laws in an infinite dimensional linear regression setup. Specifically, we consider a model with $M$ parameters as a linear function of sketched covariates. The model is trained by one-pass stochastic gradient descent (SGD) using $N$ data. Assuming the optimal parameter satisfies a Gaussian prior and the data covariance matrix has a power-law spectrum of degree $a>1$, we show that the reducible part of the test error is $Θ(M^{-(a-1)} + N^{-(a-1)/a})$. The variance error, which increases with $M$, is dominated by the other errors due to the implicit regularization of SGD, thus disappearing from the bound. Our theory is consistent with the empirical neural scaling laws and verified by numerical simulation.",
+  "arxiv_comment": "fixed typos",
+  "journal_ref": "",
+  "s2": {
+   "title": "Scaling Laws in Linear Regression: Compute, Parameters, and Data",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-06-12",
+   "doi": "10.48550/arXiv.2406.08466",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "在线性回归中严格推导参数/数据/计算三者标度律",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:17"
+  ]
+ },
+ "MLP0016": {
+  "id": "MLP0016",
+  "key": "arxiv:2402.01092",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "A Dynamical Model of Neural Scaling Laws",
+  "title": "A Dynamical Model of Neural Scaling Laws",
+  "authors": [
+   "Blake Bordelon",
+   "Alexander Atanasov",
+   "Cengiz Pehlevan"
+  ],
+  "arxiv": "2402.01092",
+  "latest_version": "2402.01092v4",
+  "doi": "10.48550/arXiv.2402.01092",
+  "first_public": "2024-02-02",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-06-23",
+  "window": "近三年",
+  "abstract": "On a variety of tasks, the performance of neural networks predictably improves with training time, dataset size and model size across many orders of magnitude. This phenomenon is known as a neural scaling law. Of fundamental importance is the compute-optimal scaling law, which reports the performance as a function of units of compute when choosing model sizes optimally. We analyze a random feature model trained with gradient descent as a solvable model of network training and generalization. This reproduces many observations about neural scaling laws. First, our model makes a prediction about why the scaling of performance with training time and with model size have different power law exponents. Consequently, the theory predicts an asymmetric compute-optimal scaling rule where the number of training steps are increased faster than model parameters, consistent with recent empirical observations. Second, it has been observed that early in training, networks converge to their infinite-width dynamics at a rate $1/\\textit{width}$ but at late time exhibit a rate $\\textit{width}^{-c}$, where $c$ depends on the structure of the architecture and task. We show that our model exhibits this behavior. Lastly, our theory shows how the gap between training and test loss can gradually build up over time due to repeated reuse of data.",
+  "arxiv_comment": "ICML Camera Ready. Included online SGD section with additional simulations and its connection to large sample limit of our gradient flow theory. Fixed typo in Appendix eq 112",
+  "journal_ref": "",
+  "s2": {
+   "title": "A Dynamical Model of Neural Scaling Laws",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-02-02",
+   "doi": "10.48550/arXiv.2402.01092",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "用训练动力学解释标度律与计算最优分配",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:18"
+  ]
+ },
+ "MLP0017": {
+  "id": "MLP0017",
+  "key": "arxiv:2409.17858",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "How Feature Learning Can Improve Neural Scaling Laws",
+  "title": "How Feature Learning Can Improve Neural Scaling Laws",
+  "authors": [
+   "Blake Bordelon",
+   "Alexander Atanasov",
+   "Cengiz Pehlevan"
+  ],
+  "arxiv": "2409.17858",
+  "latest_version": "2409.17858v2",
+  "doi": "10.1088/1742-5468/adefb1",
+  "first_public": "2024-09-26",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-04-04",
+  "window": "近三年",
+  "abstract": "We develop a solvable model of neural scaling laws beyond the kernel limit. Theoretical analysis of this model shows how performance scales with model size, training time, and the total amount of available data. We identify three scaling regimes corresponding to varying task difficulties: hard, easy, and super easy tasks. For easy and super-easy target functions, which lie in the reproducing kernel Hilbert space (RKHS) defined by the initial infinite-width Neural Tangent Kernel (NTK), the scaling exponents remain unchanged between feature learning and kernel regime models. For hard tasks, defined as those outside the RKHS of the initial NTK, we demonstrate both analytically and empirically that feature learning can improve scaling with training time and compute, nearly doubling the exponent for hard tasks. This leads to a different compute optimal strategy to scale parameters and training time in the feature learning regime. We support our finding that feature learning improves the scaling law for hard tasks but not for easy and super-easy tasks with experiments of nonlinear MLPs fitting functions with power-law Fourier spectra on the circle and CNNs learning vision tasks.",
+  "arxiv_comment": "Accepted as spotlight ICLR 2025",
+  "journal_ref": "",
+  "s2": {
+   "title": "How feature learning can improve neural scaling laws",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-09-26",
+   "doi": "10.1088/1742-5468/adefb1",
+   "journal": "Journal of Statistical Mechanics: Theory and Experiment",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "刻画特征学习如何改变标度律指数",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:19"
+  ]
+ },
+ "MLP0018": {
+  "id": "MLP0018",
+  "key": "arxiv:2405.00592",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "T",
+  "seed_title": "Scaling and renormalization in high-dimensional regression",
+  "title": "Scaling and renormalization in high-dimensional regression",
+  "authors": [
+   "Alexander Atanasov",
+   "Jacob A. Zavatone-Veth",
+   "Cengiz Pehlevan"
+  ],
+  "arxiv": "2405.00592",
+  "latest_version": "2405.00592v4",
+  "doi": "10.1088/1742-5468/ae4bba",
+  "first_public": "2024-05-01",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-06-30",
+  "window": "近三年",
+  "abstract": "From benign overfitting in overparameterized models to rich power-law scalings in performance, simple ridge regression displays surprising behaviors sometimes thought to be limited to deep neural networks. This balance of phenomenological richness with analytical tractability makes ridge regression the model system of choice in high-dimensional machine learning. In this paper, we present a unifying perspective on recent results on ridge regression using the basic tools of random matrix theory and free probability, aimed at readers with backgrounds in physics and deep learning. We highlight the fact that statistical fluctuations in empirical covariance matrices can be absorbed into a renormalization of the ridge parameter. This `deterministic equivalence' allows us to obtain analytic formulas for the training and generalization errors in a few lines of algebra by leveraging the properties of the $S$-transform of free probability. From these precise asymptotics, we can easily identify sources of power-law scaling in model performance. In all models, the $S$-transform corresponds to the train-test generalization gap, and yields an analogue of the generalized-cross-validation estimator. Using these techniques, we derive fine-grained bias-variance decompositions for a very general class of random feature models with structured covariates. This allows us to discover a scaling regime for random feature models where the variance due to the features limits performance in the overparameterized setting. We also demonstrate how anisotropic weight structure in random feature models can limit performance and lead to nontrivial exponents for finite-width corrections in the overparameterized setting. Our results extend and provide a unifying perspective on earlier models of neural scaling laws.",
+  "arxiv_comment": "74 pages, 17 figures",
+  "journal_ref": "Journal of Statistical Mechanics: Theory and Experiment (2026) 043404",
+  "s2": {
+   "title": "Scaling and renormalization in high-dimensional regression",
+   "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+   "venue_full": "Journal of Statistical Mechanics: Theory and Experiment",
+   "venue_type": "journal",
+   "year": 2024,
+   "date": "2024-05-01",
+   "doi": "10.1088/1742-5468/ae4bba",
+   "journal": "Journal of Statistical Mechanics: Theory and Experiment",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "用随机矩阵/重整化视角系统讲解高维回归泛化，偏教程",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:20"
+  ]
+ },
+ "MLP0019": {
+  "id": "MLP0019",
+  "key": "arxiv:2406.19146",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C06"
+  ],
+  "kind": "R",
+  "seed_title": "Resolving Discrepancies in Compute-Optimal Scaling of Language Models",
+  "title": "Resolving Discrepancies in Compute-Optimal Scaling of Language Models",
+  "authors": [
+   "Tomer Porian",
+   "Mitchell Wortsman",
+   "Jenia Jitsev",
+   "Ludwig Schmidt",
+   "Yair Carmon"
+  ],
+  "arxiv": "2406.19146",
+  "latest_version": "2406.19146v4",
+  "doi": "10.48550/arXiv.2406.19146",
+  "first_public": "2024-06-27",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-01-19",
+  "window": "近三年",
+  "abstract": "Kaplan et al. and Hoffmann et al. developed influential scaling laws for the optimal model size as a function of the compute budget, but these laws yield substantially different predictions. We explain the discrepancy by reproducing the Kaplan scaling law on two datasets (OpenWebText2 and RefinedWeb) and identifying three factors causing the difference: last layer computational cost, warmup duration, and scale-dependent optimizer tuning. With these factors corrected, we obtain excellent agreement with the Hoffmann et al. (i.e., \"Chinchilla\") scaling law. Counter to a hypothesis of Hoffmann et al., we find that careful learning rate decay is not essential for the validity of their scaling law. As a secondary result, we derive scaling laws for the optimal learning rate and batch size, finding that tuning the AdamW $β_2$ parameter is essential at lower batch sizes.",
+  "arxiv_comment": "Spotlight at NeurIPS 2024",
+  "journal_ref": "",
+  "s2": {
+   "title": "Resolving Discrepancies in Compute-Optimal Scaling of Language Models",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-06-27",
+   "doi": "10.48550/arXiv.2406.19146",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "解释 Kaplan 与 Chinchilla 标度律差异的来源",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:21"
+  ]
+ },
+ "MLP0020": {
+  "id": "MLP0020",
+  "key": "arxiv:2404.10102",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C10"
+  ],
+  "kind": "R",
+  "seed_title": "Chinchilla Scaling: A replication attempt",
+  "title": "Chinchilla Scaling: A replication attempt",
+  "authors": [
+   "Tamay Besiroglu",
+   "Ege Erdil",
+   "Matthew Barnett",
+   "Josh You"
+  ],
+  "arxiv": "2404.10102",
+  "latest_version": "2404.10102v2",
+  "doi": "10.48550/arXiv.2404.10102",
+  "first_public": "2024-04-15",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-05-15",
+  "window": "近三年",
+  "abstract": "Hoffmann et al. (2022) propose three methods for estimating a compute-optimal scaling law. We attempt to replicate their third estimation procedure, which involves fitting a parametric loss function to a reconstruction of data from their plots. We find that the reported estimates are inconsistent with their first two estimation methods, fail at fitting the extracted data, and report implausibly narrow confidence intervals--intervals this narrow would require over 600,000 experiments, while they likely only ran fewer than 500. In contrast, our rederivation of the scaling law using the third approach yields results that are compatible with the findings from the first two estimation procedures described by Hoffmann et al.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Chinchilla Scaling: A replication attempt",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-04-15",
+   "doi": "10.48550/arXiv.2404.10102",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "复现 Chinchilla 拟合并发现原估计问题，兼具可复现性价值",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:22"
+  ]
+ },
+ "MLP0021": {
+  "id": "MLP0021",
+  "key": "arxiv:2410.07746",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Benign Overfitting in Single-Head Attention",
+  "title": "Benign Overfitting in Single-Head Attention",
+  "authors": [
+   "Roey Magen",
+   "Shuning Shang",
+   "Zhiwei Xu",
+   "Spencer Frei",
+   "Wei Hu",
+   "Gal Vardi"
+  ],
+  "arxiv": "2410.07746",
+  "latest_version": "2410.07746v2",
+  "doi": "10.48550/arXiv.2410.07746",
+  "first_public": "2024-10-10",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-02-12",
+  "window": "近三年",
+  "abstract": "The phenomenon of benign overfitting, where a trained neural network perfectly fits noisy training data but still achieves near-optimal test performance, has been extensively studied in recent years for linear models and fully-connected/convolutional networks. In this work, we study benign overfitting in a single-head softmax attention model, which is the fundamental building block of Transformers. We prove that under appropriate conditions, the model exhibits benign overfitting in a classification setting already after two steps of gradient descent. Moreover, we show conditions where a minimum-norm/maximum-margin interpolator exhibits benign overfitting. We study how the overfitting behavior depends on the signal-to-noise ratio (SNR) of the data distribution, namely, the ratio between norms of signal and noise tokens, and prove that a sufficiently large SNR is both necessary and sufficient for benign overfitting.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Benign Overfitting in Single-Head Attention",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-10-10",
+   "doi": "10.48550/arXiv.2410.07746",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "首次在注意力模型中证明良性过拟合",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:23"
+  ]
+ },
+ "MLP0022": {
+  "id": "MLP0022",
+  "key": "arxiv:2403.06903",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Benign overfitting in leaky ReLU networks with moderate input dimension",
+  "title": "Benign overfitting in leaky ReLU networks with moderate input dimension",
+  "authors": [
+   "Kedar Karhadkar",
+   "Erin George",
+   "Michael Murray",
+   "Guido Montúfar",
+   "Deanna Needell"
+  ],
+  "arxiv": "2403.06903",
+  "latest_version": "2403.06903v3",
+  "doi": "10.48550/arXiv.2403.06903",
+  "first_public": "2024-03-11",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-10-02",
+  "window": "近三年",
+  "abstract": "The problem of benign overfitting asks whether it is possible for a model to perfectly fit noisy training data and still generalize well. We study benign overfitting in two-layer leaky ReLU networks trained with the hinge loss on a binary classification task. We consider input data that can be decomposed into the sum of a common signal and a random noise component, that lie on subspaces orthogonal to one another. We characterize conditions on the signal to noise ratio (SNR) of the model parameters giving rise to benign versus non-benign (or harmful) overfitting: in particular, if the SNR is high then benign overfitting occurs, conversely if the SNR is low then harmful overfitting occurs. We attribute both benign and non-benign overfitting to an approximate margin maximization property and show that leaky ReLU networks trained on hinge loss with gradient descent (GD) satisfy this property. In contrast to prior work we do not require the training data to be nearly orthogonal. Notably, for input dimension $d$ and training sample size $n$, while results in prior work require $d = Ω(n^2 \\log n)$, here we require only $d = Ω\\left(n\\right)$.",
+  "arxiv_comment": "39 pages",
+  "journal_ref": "",
+  "s2": {
+   "title": "Benign overfitting in leaky ReLU networks with moderate input dimension",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-03-11",
+   "doi": "10.48550/arXiv.2403.06903",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "放宽高维假设下 ReLU 网络良性过拟合的条件",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:24"
+  ]
+ },
+ "MLP0023": {
+  "id": "MLP0023",
+  "key": "arxiv:2403.10459",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "T",
+  "seed_title": "Understanding the Double Descent Phenomenon in Deep Learning",
+  "title": "Understanding the Double Descent Phenomenon in Deep Learning",
+  "authors": [
+   "Marc Lafon",
+   "Alexandre Thomas"
+  ],
+  "arxiv": "2403.10459",
+  "latest_version": "2403.10459v1",
+  "doi": "10.48550/arXiv.2403.10459",
+  "first_public": "2024-03-15",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-03-15",
+  "window": "近三年",
+  "abstract": "Combining empirical risk minimization with capacity control is a classical strategy in machine learning when trying to control the generalization gap and avoid overfitting, as the model class capacity gets larger. Yet, in modern deep learning practice, very large over-parameterized models (e.g. neural networks) are optimized to fit perfectly the training data and still obtain great generalization performance. Past the interpolation point, increasing model complexity seems to actually lower the test error. In this tutorial, we explain the concept of double descent and its mechanisms. The first section sets the classical statistical learning framework and introduces the double descent phenomenon. By looking at a number of examples, section 2 introduces inductive biases that appear to have a key role in double descent by selecting, among the multiple interpolating solutions, a smooth empirical risk minimizer. Finally, section 3 explores the double descent with two linear models, and gives other points of view from recent related works.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Understanding the Double Descent Phenomenon in Deep Learning",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-03-15",
+   "doi": "10.48550/arXiv.2403.10459",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Review"
+   ]
+  },
+  "crossref": {},
+  "reason": "双下降现象的教程式综述",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:25"
+  ]
+ },
+ "MLP0024": {
+  "id": "MLP0024",
+  "key": "arxiv:2403.02241",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "Neural Redshift: Random Networks are not Random Functions",
+  "title": "Neural Redshift: Random Networks are not Random Functions",
+  "authors": [
+   "Damien Teney",
+   "Armand Nicolicioiu",
+   "Valentin Hartmann",
+   "Ehsan Abbasnejad"
+  ],
+  "arxiv": "2403.02241",
+  "latest_version": "2403.02241v3",
+  "doi": "10.1109/CVPR52733.2024.00458",
+  "first_public": "2024-03-04",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-04-29",
+  "window": "近三年",
+  "abstract": "Our understanding of the generalization capabilities of neural networks (NNs) is still incomplete. Prevailing explanations are based on implicit biases of gradient descent (GD) but they cannot account for the capabilities of models from gradient-free methods nor the simplicity bias recently observed in untrained networks. This paper seeks other sources of generalization in NNs. Findings. To understand the inductive biases provided by architectures independently from GD, we examine untrained, random-weight networks. Even simple MLPs show strong inductive biases: uniform sampling in weight space yields a very biased distribution of functions in terms of complexity. But unlike common wisdom, NNs do not have an inherent \"simplicity bias\". This property depends on components such as ReLUs, residual connections, and layer normalizations. Alternative architectures can be built with a bias for any level of complexity. Transformers also inherit all these properties from their building blocks. Implications. We provide a fresh explanation for the success of deep learning independent from gradient-based training. It points at promising avenues for controlling the solutions implemented by trained models.",
+  "arxiv_comment": "",
+  "journal_ref": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024",
+  "s2": {
+   "title": "Neural Redshift: Random Networks are not Random Functions",
+   "venue": "Computer Vision and Pattern Recognition",
+   "venue_full": "Computer Vision and Pattern Recognition",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-03-04",
+   "doi": "10.1109/CVPR52733.2024.00458",
+   "journal": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "研究随机初始化网络的简单性偏置，解释归纳偏置来源",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:26"
+  ]
+ },
+ "MLP0025": {
+  "id": "MLP0025",
+  "key": "arxiv:2407.05664",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "How DNNs break the Curse of Dimensionality: Compositionality and Symmetry Learning",
+  "title": "How DNNs break the Curse of Dimensionality: Compositionality and Symmetry Learning",
+  "authors": [
+   "Arthur Jacot",
+   "Seok Hoan Choi",
+   "Yuxiao Wen"
+  ],
+  "arxiv": "2407.05664",
+  "latest_version": "2407.05664v2",
+  "doi": "10.48550/arXiv.2407.05664",
+  "first_public": "2024-07-08",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-03-06",
+  "window": "近三年",
+  "abstract": "We show that deep neural networks (DNNs) can efficiently learn any composition of functions with bounded $F_{1}$-norm, which allows DNNs to break the curse of dimensionality in ways that shallow networks cannot. More specifically, we derive a generalization bound that combines a covering number argument for compositionality, and the $F_{1}$-norm (or the related Barron norm) for large width adaptivity. We show that the global minimizer of the regularized loss of DNNs can fit for example the composition of two functions $f^{*}=h\\circ g$ from a small number of observations, assuming $g$ is smooth/regular and reduces the dimensionality (e.g. $g$ could be the quotient map of the symmetries of $f^{*}$), so that $h$ can be learned in spite of its low regularity. The measures of regularity we consider is the Sobolev norm with different levels of differentiability, which is well adapted to the $F_{1}$ norm. We compute scaling laws empirically and observe phase transitions depending on whether $g$ or $h$ is harder to learn, as predicted by our theory.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "How DNNs break the Curse of Dimensionality: Compositionality and Symmetry Learning",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-07-08",
+   "doi": "10.48550/arXiv.2407.05664",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "组合性与对称性如何使深网突破维数灾难",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:27"
+  ]
+ },
+ "MLP0026": {
+  "id": "MLP0026",
+  "key": "arxiv:2404.04454",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "Implicit Bias of AdamW: ℓ∞ Norm Constrained Optimization",
+  "title": "Implicit Bias of AdamW: $\\ell_\\infty$ Norm Constrained Optimization",
+  "authors": [
+   "Shuo Xie",
+   "Zhiyuan Li"
+  ],
+  "arxiv": "2404.04454",
+  "latest_version": "2404.04454v1",
+  "doi": "10.48550/arXiv.2404.04454",
+  "first_public": "2024-04-05",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-04-05",
+  "window": "近三年",
+  "abstract": "Adam with decoupled weight decay, also known as AdamW, is widely acclaimed for its superior performance in language modeling tasks, surpassing Adam with $\\ell_2$ regularization in terms of generalization and optimization. However, this advantage is not theoretically well-understood. One challenge here is that though intuitively Adam with $\\ell_2$ regularization optimizes the $\\ell_2$ regularized loss, it is not clear if AdamW optimizes a specific objective. In this work, we make progress toward understanding the benefit of AdamW by showing that it implicitly performs constrained optimization. More concretely, we show in the full-batch setting, if AdamW converges with any non-increasing learning rate schedule whose partial sum diverges, it must converge to a KKT point of the original loss under the constraint that the $\\ell_\\infty$ norm of the parameter is bounded by the inverse of the weight decay factor. This result is built on the observation that Adam can be viewed as a smoothed version of SignGD, which is the normalized steepest descent with respect to $\\ell_\\infty$ norm, and a surprising connection between normalized steepest descent with weight decay and Frank-Wolfe.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Implicit Bias of AdamW: ℓ∞ Norm Constrained Optimization",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-04-05",
+   "doi": "10.48550/arXiv.2404.04454",
+   "journal": "",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "证明 AdamW 隐式求解 ℓ∞ 范数约束问题",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:28"
+  ]
+ },
+ "MLP0027": {
+  "id": "MLP0027",
+  "key": "arxiv:2406.10650",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "The Implicit Bias of Adam on Separable Data",
+  "title": "The Implicit Bias of Adam on Separable Data",
+  "authors": [
+   "Chenyang Zhang",
+   "Difan Zou",
+   "Yuan Cao"
+  ],
+  "arxiv": "2406.10650",
+  "latest_version": "2406.10650v1",
+  "doi": "10.48550/arXiv.2406.10650",
+  "first_public": "2024-06-15",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-06-15",
+  "window": "近三年",
+  "abstract": "Adam has become one of the most favored optimizers in deep learning problems. Despite its success in practice, numerous mysteries persist regarding its theoretical understanding. In this paper, we study the implicit bias of Adam in linear logistic regression. Specifically, we show that when the training data are linearly separable, Adam converges towards a linear classifier that achieves the maximum $\\ell_\\infty$-margin. Notably, for a general class of diminishing learning rates, this convergence occurs within polynomial time. Our result shed light on the difference between Adam and (stochastic) gradient descent from a theoretical perspective.",
+  "arxiv_comment": "33 pages, 2 figures",
+  "journal_ref": "",
+  "s2": {
+   "title": "The Implicit Bias of Adam on Separable Data",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-06-15",
+   "doi": "10.48550/arXiv.2406.10650",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "Adam 在可分数据上的隐式偏置",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:29"
+  ]
+ },
+ "MLP0028": {
+  "id": "MLP0028",
+  "key": "arxiv:2402.15926",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "Large Stepsize Gradient Descent for Logistic Loss: Non-Monotonicity of the Loss Improves Optimization Efficiency",
+  "title": "Large Stepsize Gradient Descent for Logistic Loss: Non-Monotonicity of the Loss Improves Optimization Efficiency",
+  "authors": [
+   "Jingfeng Wu",
+   "Peter L. Bartlett",
+   "Matus Telgarsky",
+   "Bin Yu"
+  ],
+  "arxiv": "2402.15926",
+  "latest_version": "2402.15926v2",
+  "doi": "10.48550/arXiv.2402.15926",
+  "first_public": "2024-02-24",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-06-10",
+  "window": "近三年",
+  "abstract": "We consider gradient descent (GD) with a constant stepsize applied to logistic regression with linearly separable data, where the constant stepsize $η$ is so large that the loss initially oscillates. We show that GD exits this initial oscillatory phase rapidly -- in $\\mathcal{O}(η)$ steps -- and subsequently achieves an $\\tilde{\\mathcal{O}}(1 / (ηt) )$ convergence rate after $t$ additional steps. Our results imply that, given a budget of $T$ steps, GD can achieve an accelerated loss of $\\tilde{\\mathcal{O}}(1/T^2)$ with an aggressive stepsize $η:= Θ( T)$, without any use of momentum or variable stepsize schedulers. Our proof technique is versatile and also handles general classification loss functions (where exponential tails are needed for the $\\tilde{\\mathcal{O}}(1/T^2)$ acceleration), nonlinear predictors in the neural tangent kernel regime, and online stochastic gradient descent (SGD) with a large stepsize, under suitable separability conditions.",
+  "arxiv_comment": "COLT 2024 camera ready",
+  "journal_ref": "",
+  "s2": {
+   "title": "Large Stepsize Gradient Descent for Logistic Loss: Non-Monotonicity of the Loss Improves Optimization Efficiency",
+   "venue": "Annual Conference Computational Learning Theory",
+   "venue_full": "Annual Conference Computational Learning Theory",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-02-24",
+   "doi": "10.48550/arXiv.2402.15926",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "大步长梯度下降的非单调性与加速",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:30"
+  ]
+ },
+ "MLP0029": {
+  "id": "MLP0029",
+  "key": "arxiv:2406.05033",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C02"
+  ],
+  "kind": "R",
+  "seed_title": "Gradient descent on logistic regression with non-separable data and large step sizes",
+  "title": "Gradient Descent on Logistic Regression with Non-Separable Data and Large Step Sizes",
+  "authors": [
+   "Si Yi Meng",
+   "Antonio Orvieto",
+   "Daniel Yiming Cao",
+   "Christopher De Sa"
+  ],
+  "arxiv": "2406.05033",
+  "latest_version": "2406.05033v3",
+  "doi": "10.48550/arXiv.2406.05033",
+  "first_public": "2024-06-07",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2026-09-02",
+  "window": "近三年",
+  "abstract": "We study gradient descent (GD) dynamics on logistic regression problems with large, constant step sizes. For linearly-separable data, it is known that GD converges to the minimizer with arbitrarily large step sizes, a property which no longer holds when the problem is not separable. In fact, the behaviour can be much more complex -- a sequence of period-doubling bifurcations begins at the critical step size $2/λ$, where $λ$ is the largest eigenvalue of the Hessian at the solution. Using a smaller-than-critical step size guarantees convergence if initialized nearby the solution: but does this suffice globally? In one dimension, we show that a step size less than $1/λ$ suffices for global convergence. However, for all step sizes between $1/λ$ and the critical step size $2/λ$, one can construct a dataset such that GD converges to a stable cycle. In higher dimensions, this is actually possible even for step sizes less than $1/λ$. Our results show that although local convergence is guaranteed for all step sizes less than the critical step size, global convergence is not, and GD may instead converge to a cycle depending on the initialization.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Gradient Descent on Logistic Regression with Non-Separable Data and Large Step Sizes",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-06-07",
+   "doi": "10.48550/arXiv.2406.05033",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "不可分数据上大步长 GD 的收敛与发散",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:31"
+  ]
+ },
+ "MLP0030": {
+  "id": "MLP0030",
+  "key": "arxiv:2402.03220",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "The Benefits of Reusing Batches for Gradient Descent in Two-Layer Networks: Breaking the Curse of Information and Leap Exponents",
+  "title": "The Benefits of Reusing Batches for Gradient Descent in Two-Layer Networks: Breaking the Curse of Information and Leap Exponents",
+  "authors": [
+   "Yatin Dandi",
+   "Emanuele Troiani",
+   "Luca Arnaboldi",
+   "Luca Pesce",
+   "Lenka Zdeborová",
+   "Florent Krzakala"
+  ],
+  "arxiv": "2402.03220",
+  "latest_version": "2402.03220v3",
+  "doi": "10.48550/arXiv.2402.03220",
+  "first_public": "2024-02-05",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-06-30",
+  "window": "近三年",
+  "abstract": "We investigate the training dynamics of two-layer neural networks when learning multi-index target functions. We focus on multi-pass gradient descent (GD) that reuses the batches multiple times and show that it significantly changes the conclusion about which functions are learnable compared to single-pass gradient descent. In particular, multi-pass GD with finite stepsize is found to overcome the limitations of gradient flow and single-pass GD given by the information exponent (Ben Arous et al., 2021) and leap exponent (Abbe et al., 2023) of the target function. We show that upon re-using batches, the network achieves in just two time steps an overlap with the target subspace even for functions not satisfying the staircase property (Abbe et al., 2021). We characterize the (broad) class of functions efficiently learned in finite time. The proof of our results is based on the analysis of the Dynamical Mean-Field Theory (DMFT). We further provide a closed-form description of the dynamical process of the low-dimensional projections of the weights, and numerical experiments illustrating the theory.",
+  "arxiv_comment": "Accepted at the International Conference on Machine Learning (ICML), 2024",
+  "journal_ref": "Proceedings of the 41st International Conference on Machine Learning, PMLR 235:9991-10016, 2024",
+  "s2": {
+   "title": "The Benefits of Reusing Batches for Gradient Descent in Two-Layer Networks: Breaking the Curse of Information and Leap Exponents",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-02-05",
+   "doi": "10.48550/arXiv.2402.03220",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "重复使用样本如何改变两层网络学习的样本复杂度",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:32"
+  ]
+ },
+ "MLP0031": {
+  "id": "MLP0031",
+  "key": "arxiv:2406.01581",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit",
+  "title": "Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit",
+  "authors": [
+   "Jason D. Lee",
+   "Kazusato Oko",
+   "Taiji Suzuki",
+   "Denny Wu"
+  ],
+  "arxiv": "2406.01581",
+  "latest_version": "2406.01581v2",
+  "doi": "10.48550/arXiv.2406.01581",
+  "first_public": "2024-06-03",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-12-22",
+  "window": "近三年",
+  "abstract": "We study the problem of gradient descent learning of a single-index target function $f_*(\\boldsymbol{x}) = \\textstyleσ_*\\left(\\langle\\boldsymbol{x},\\boldsymbolθ\\rangle\\right)$ under isotropic Gaussian data in $\\mathbb{R}^d$, where the unknown link function $σ_*:\\mathbb{R}\\to\\mathbb{R}$ has information exponent $p$ (defined as the lowest degree in the Hermite expansion). Prior works showed that gradient-based training of neural networks can learn this target with $n\\gtrsim d^{Θ(p)}$ samples, and such complexity is predicted to be necessary by the correlational statistical query lower bound. Surprisingly, we prove that a two-layer neural network optimized by an SGD-based algorithm (on the squared loss) learns $f_*$ with a complexity that is not governed by the information exponent. Specifically, for arbitrary polynomial single-index models, we establish a sample and runtime complexity of $n \\simeq T = Θ(d\\!\\cdot\\! \\mathrm{polylog} d)$, where $Θ(\\cdot)$ hides a constant only depending on the degree of $σ_*$; this dimension dependence matches the information theoretic limit up to polylogarithmic factors. More generally, we show that $n\\gtrsim d^{(p_*-1)\\vee 1}$ samples are sufficient to achieve low generalization error, where $p_* \\le p$ is the \\textit{generative exponent} of the link function. Core to our analysis is the reuse of minibatch in the gradient computation, which gives rise to higher-order information beyond correlational queries.",
+  "arxiv_comment": "NeurIPS 2024",
+  "journal_ref": "",
+  "s2": {
+   "title": "Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-06-03",
+   "doi": "10.48550/arXiv.2406.01581",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "SGD 学习单指标模型接近信息论下界",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:33"
+  ]
+ },
+ "MLP0032": {
+  "id": "MLP0032",
+  "key": "arxiv:2405.03676",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C10"
+  ],
+  "kind": "R",
+  "seed_title": "Why is SAM Robust to Label Noise?",
+  "title": "Why is SAM Robust to Label Noise?",
+  "authors": [
+   "Christina Baek",
+   "Zico Kolter",
+   "Aditi Raghunathan"
+  ],
+  "arxiv": "2405.03676",
+  "latest_version": "2405.03676v1",
+  "doi": "10.48550/arXiv.2405.03676",
+  "first_public": "2024-05-06",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-05-06",
+  "window": "近三年",
+  "abstract": "Sharpness-Aware Minimization (SAM) is most known for achieving state-of the-art performances on natural image and language tasks. However, its most pronounced improvements (of tens of percent) is rather in the presence of label noise. Understanding SAM's label noise robustness requires a departure from characterizing the robustness of minimas lying in \"flatter\" regions of the loss landscape. In particular, the peak performance under label noise occurs with early stopping, far before the loss converges. We decompose SAM's robustness into two effects: one induced by changes to the logit term and the other induced by changes to the network Jacobian. The first can be observed in linear logistic regression where SAM provably up-weights the gradient contribution from clean examples. Although this explicit up-weighting is also observable in neural networks, when we intervene and modify SAM to remove this effect, surprisingly, we see no visible degradation in performance. We infer that SAM's effect in deeper networks is instead explained entirely by the effect SAM has on the network Jacobian. We theoretically derive the implicit regularization induced by this Jacobian effect in two layer linear networks. Motivated by our analysis, we see that cheaper alternatives to SAM that explicitly induce these regularization effects largely recover the benefits in deep networks trained on real-world datasets.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Why is SAM Robust to Label Noise?",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-05-06",
+   "doi": "10.48550/arXiv.2405.03676",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "解释锐度感知最小化对标签噪声的鲁棒性",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:34"
+  ]
+ },
+ "MLP0033": {
+  "id": "MLP0033",
+  "key": "arxiv:2410.10373",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "Sharpness-Aware Minimization Efficiently Selects Flatter Minima Late in Training",
+  "title": "Sharpness-Aware Minimization Efficiently Selects Flatter Minima Late in Training",
+  "authors": [
+   "Zhanpeng Zhou",
+   "Mingze Wang",
+   "Yuchen Mao",
+   "Bingrui Li",
+   "Junchi Yan"
+  ],
+  "arxiv": "2410.10373",
+  "latest_version": "2410.10373v2",
+  "doi": "10.48550/arXiv.2410.10373",
+  "first_public": "2024-10-14",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-02-20",
+  "window": "近三年",
+  "abstract": "Sharpness-Aware Minimization (SAM) has substantially improved the generalization of neural networks under various settings. Despite the success, its effectiveness remains poorly understood. In this work, we discover an intriguing phenomenon in the training dynamics of SAM, shedding light on understanding its implicit bias towards flatter minima over Stochastic Gradient Descent (SGD). Specifically, we find that SAM efficiently selects flatter minima late in training. Remarkably, even a few epochs of SAM applied at the end of training yield nearly the same generalization and solution sharpness as full SAM training. Subsequently, we delve deeper into the underlying mechanism behind this phenomenon. Theoretically, we identify two phases in the learning dynamics after applying SAM late in training: i) SAM first escapes the minimum found by SGD exponentially fast; and ii) then rapidly converges to a flatter minimum within the same valley. Furthermore, we empirically investigate the role of SAM during the early training phase. We conjecture that the optimization method chosen in the late phase is more crucial in shaping the final solution's properties. Based on this viewpoint, we extend our findings from SAM to Adversarial Training.",
+  "arxiv_comment": "32 pages, 16 figures, ICLR 2025 Spotlight",
+  "journal_ref": "",
+  "s2": {
+   "title": "Sharpness-Aware Minimization Efficiently Selects Flatter Minima Late in Training",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-10-14",
+   "doi": "10.48550/arXiv.2410.10373",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "训练后期使用 SAM 即可获得平坦极小值",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:35"
+  ]
+ },
+ "MLP0034": {
+  "id": "MLP0034",
+  "key": "arxiv:2410.23819",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "Weight decay induces low-rank attention layers",
+  "title": "Weight decay induces low-rank attention layers",
+  "authors": [
+   "Seijin Kobayashi",
+   "Yassir Akram",
+   "Johannes Von Oswald"
+  ],
+  "arxiv": "2410.23819",
+  "latest_version": "2410.23819v1",
+  "doi": "10.48550/arXiv.2410.23819",
+  "first_public": "2024-10-31",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-10-31",
+  "window": "近三年",
+  "abstract": "The effect of regularizers such as weight decay when training deep neural networks is not well understood. We study the influence of weight decay as well as $L2$-regularization when training neural network models in which parameter matrices interact multiplicatively. This combination is of particular interest as this parametrization is common in attention layers, the workhorse of transformers. Here, key-query, as well as value-projection parameter matrices, are multiplied directly with each other: $W_K^TW_Q$ and $PW_V$. We extend previous results and show on one hand that any local minimum of a $L2$-regularized loss of the form $L(AB^\\top) + λ(\\|A\\|^2 + \\|B\\|^2)$ coincides with a minimum of the nuclear norm-regularized loss $L(AB^\\top) + λ\\|AB^\\top\\|_*$, and on the other hand that the 2 losses become identical exponentially quickly during training. We thus complement existing works linking $L2$-regularization with low-rank regularization, and in particular, explain why such regularization on the matrix product affects early stages of training. Based on these theoretical insights, we verify empirically that the key-query and value-projection matrix products $W_K^TW_Q, PW_V$ within attention layers, when optimized with weight decay, as usually done in vision tasks and language modelling, indeed induce a significant reduction in the rank of $W_K^TW_Q$ and $PW_V$, even in fully online training. We find that, in accordance with existing work, inducing low rank in attention matrix products can damage language model performance, and observe advantages when decoupling weight decay in attention layers from the rest of the parameters.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Weight decay induces low-rank attention layers",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-10-31",
+   "doi": "10.48550/arXiv.2410.23819",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "权重衰减作为正则化对注意力层低秩性的影响",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:36"
+  ]
+ },
+ "MLP0035": {
+  "id": "MLP0035",
+  "key": "arxiv:2408.11804",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Approaching Deep Learning through the Spectral Dynamics of Weights",
+  "title": "Approaching Deep Learning through the Spectral Dynamics of Weights",
+  "authors": [
+   "David Yunis",
+   "Kumar Kshitij Patel",
+   "Samuel Wheeler",
+   "Pedro Savarese",
+   "Gal Vardi",
+   "Karen Livescu",
+   "Michael Maire",
+   "Matthew R. Walter"
+  ],
+  "arxiv": "2408.11804",
+  "latest_version": "2408.11804v1",
+  "doi": "10.48550/arXiv.2408.11804",
+  "first_public": "2024-08-21",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-08-21",
+  "window": "近三年",
+  "abstract": "We propose an empirical approach centered on the spectral dynamics of weights -- the behavior of singular values and vectors during optimization -- to unify and clarify several phenomena in deep learning. We identify a consistent bias in optimization across various experiments, from small-scale ``grokking'' to large-scale tasks like image classification with ConvNets, image generation with UNets, speech recognition with LSTMs, and language modeling with Transformers. We also demonstrate that weight decay enhances this bias beyond its role as a norm regularizer, even in practical systems. Moreover, we show that these spectral dynamics distinguish memorizing networks from generalizing ones, offering a novel perspective on this longstanding conundrum. Additionally, we leverage spectral dynamics to explore the emergence of well-performing sparse subnetworks (lottery tickets) and the structure of the loss surface through linear mode connectivity. Our findings suggest that spectral dynamics provide a coherent framework to better understand the behavior of neural networks across diverse settings.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Approaching Deep Learning through the Spectral Dynamics of Weights",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-08-21",
+   "doi": "10.48550/arXiv.2408.11804",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "以权重谱动力学统一解释 grokking、泛化与正则化",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:37"
+  ]
+ },
+ "MLP0036": {
+  "id": "MLP0036",
+  "key": "arxiv:2406.03880",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C10"
+  ],
+  "kind": "S",
+  "seed_title": "Memorization in Deep Learning: A Survey",
+  "title": "Memorization in deep learning: A survey",
+  "authors": [
+   "Jiaheng Wei",
+   "Yanjun Zhang",
+   "Leo Yu Zhang",
+   "Ming Ding",
+   "Chao Chen",
+   "Kok-Leong Ong",
+   "Jun Zhang",
+   "Yang Xiang"
+  ],
+  "arxiv": "2406.03880",
+  "latest_version": "2406.03880v1",
+  "doi": "10.1145/3769076",
+  "first_public": "2024-06-06",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-06-06",
+  "window": "近三年",
+  "abstract": "Deep Learning (DL) powered by Deep Neural Networks (DNNs) has revolutionized various domains, yet understanding the intricacies of DNN decision-making and learning processes remains a significant challenge. Recent investigations have uncovered an interesting memorization phenomenon in which DNNs tend to memorize specific details from examples rather than learning general patterns, affecting model generalization, security, and privacy. This raises critical questions about the nature of generalization in DNNs and their susceptibility to security breaches. In this survey, we present a systematic framework to organize memorization definitions based on the generalization and security/privacy domains and summarize memorization evaluation methods at both the example and model levels. Through a comprehensive literature review, we explore DNN memorization behaviors and their impacts on security and privacy. We also introduce privacy vulnerabilities caused by memorization and the phenomenon of forgetting and explore its connection with memorization. Furthermore, we spotlight various applications leveraging memorization and forgetting mechanisms, including noisy label learning, privacy preservation, and model enhancement. This survey offers the first-in-kind understanding of memorization in DNNs, providing insights into its challenges and opportunities for enhancing AI development while addressing critical ethical concerns.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Memorization in Deep Learning: A Survey",
+   "venue": "ACM Computing Surveys",
+   "venue_full": "ACM Computing Surveys",
+   "venue_type": "journal",
+   "year": 2024,
+   "date": "2024-06-06",
+   "doi": "10.1145/3769076",
+   "journal": "ACM Computing Surveys",
+   "types": [
+    "JournalArticle",
+    "Review"
+   ]
+  },
+  "crossref": {},
+  "reason": "记忆与泛化关系的综述",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:38"
+  ]
+ },
+ "MLP0037": {
+  "id": "MLP0037",
+  "key": "arxiv:2403.06871",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C03"
+  ],
+  "kind": "R",
+  "seed_title": "On the Generalization Ability of Unsupervised Pretraining",
+  "title": "On the Generalization Ability of Unsupervised Pretraining",
+  "authors": [
+   "Yuyang Deng",
+   "Junyuan Hong",
+   "Jiayu Zhou",
+   "Mehrdad Mahdavi"
+  ],
+  "arxiv": "2403.06871",
+  "latest_version": "2403.06871v1",
+  "doi": "10.48550/arXiv.2403.06871",
+  "first_public": "2024-03-11",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-03-11",
+  "window": "近三年",
+  "abstract": "Recent advances in unsupervised learning have shown that unsupervised pre-training, followed by fine-tuning, can improve model generalization. However, a rigorous understanding of how the representation function learned on an unlabeled dataset affects the generalization of the fine-tuned model is lacking. Existing theoretical research does not adequately account for the heterogeneity of the distribution and tasks in pre-training and fine-tuning stage. To bridge this gap, this paper introduces a novel theoretical framework that illuminates the critical factor influencing the transferability of knowledge acquired during unsupervised pre-training to the subsequent fine-tuning phase, ultimately affecting the generalization capabilities of the fine-tuned model on downstream tasks. We apply our theoretical framework to analyze generalization bound of two distinct scenarios: Context Encoder pre-training with deep neural networks and Masked Autoencoder pre-training with deep transformers, followed by fine-tuning on a binary classification task. Finally, inspired by our findings, we propose a novel regularization method during pre-training to further enhances the generalization of fine-tuned model. Overall, our results contribute to a better understanding of unsupervised pre-training and fine-tuning paradigm, and can shed light on the design of more effective pre-training algorithms.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "On the Generalization Ability of Unsupervised Pretraining",
+   "venue": "International Conference on Artificial Intelligence and Statistics",
+   "venue_full": "International Conference on Artificial Intelligence and Statistics",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-03-11",
+   "doi": "10.48550/arXiv.2403.06871",
+   "journal": "Proceedings of machine learning research",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "无监督预训练后微调的泛化界",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:39"
+  ]
+ },
+ "MLP0038": {
+  "id": "MLP0038",
+  "key": "arxiv:2405.01964",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C06"
+  ],
+  "kind": "R",
+  "seed_title": "Position: Understanding LLMs Requires More Than Statistical Generalization",
+  "title": "Position: Understanding LLMs Requires More Than Statistical Generalization",
+  "authors": [
+   "Patrik Reizinger",
+   "Szilvia Ujváry",
+   "Anna Mészáros",
+   "Anna Kerekes",
+   "Wieland Brendel",
+   "Ferenc Huszár"
+  ],
+  "arxiv": "2405.01964",
+  "latest_version": "2405.01964v3",
+  "doi": "10.48550/arXiv.2405.01964",
+  "first_public": "2024-05-03",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-06-17",
+  "window": "近三年",
+  "abstract": "The last decade has seen blossoming research in deep learning theory attempting to answer, \"Why does deep learning generalize?\" A powerful shift in perspective precipitated this progress: the study of overparametrized models in the interpolation regime. In this paper, we argue that another perspective shift is due, since some of the desirable qualities of LLMs are not a consequence of good statistical generalization and require a separate theoretical explanation. Our core argument relies on the observation that AR probabilistic models are inherently non-identifiable: models zero or near-zero KL divergence apart -- thus, equivalent test loss -- can exhibit markedly different behaviors. We support our position with mathematical examples and empirical observations, illustrating why non-identifiability has practical relevance through three case studies: (1) the non-identifiability of zero-shot rule extrapolation; (2) the approximate non-identifiability of in-context learning; and (3) the non-identifiability of fine-tunability. We review promising research directions focusing on LLM-relevant generalization measures, transferability, and inductive biases.",
+  "arxiv_comment": "Accepted as a position paper at ICML2024, Code: https://github.com/rpatrik96/llm-non-identifiability",
+  "journal_ref": "",
+  "s2": {
+   "title": "Understanding LLMs Requires More Than Statistical Generalization",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-05-03",
+   "doi": "10.48550/arXiv.2405.01964",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference",
+    "Review"
+   ]
+  },
+  "crossref": {},
+  "reason": "指出经典统计泛化不足以解释 LLM 行为",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:40"
+  ]
+ },
+ "MLP0039": {
+  "id": "MLP0039",
+  "key": "arxiv:2312.09390",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C06"
+  ],
+  "kind": "R",
+  "seed_title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+  "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+  "authors": [
+   "Collin Burns",
+   "Pavel Izmailov",
+   "Jan Hendrik Kirchner",
+   "Bowen Baker",
+   "Leo Gao",
+   "Leopold Aschenbrenner",
+   "Yining Chen",
+   "Adrien Ecoffet",
+   "Manas Joglekar",
+   "Jan Leike",
+   "Ilya Sutskever",
+   "Jeff Wu"
+  ],
+  "arxiv": "2312.09390",
+  "latest_version": "2312.09390v1",
+  "doi": "10.48550/arXiv.2312.09390",
+  "first_public": "2023-12-14",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2023-12-14",
+  "window": "近三年",
+  "abstract": "Widely used alignment techniques, such as reinforcement learning from human feedback (RLHF), rely on the ability of humans to supervise model behavior - for example, to evaluate whether a model faithfully followed instructions or generated safe outputs. However, future superhuman models will behave in complex ways too difficult for humans to reliably evaluate; humans will only be able to weakly supervise superhuman models. We study an analogy to this problem: can weak model supervision elicit the full capabilities of a much stronger model? We test this using a range of pretrained language models in the GPT-4 family on natural language processing (NLP), chess, and reward modeling tasks. We find that when we naively finetune strong pretrained models on labels generated by a weak model, they consistently perform better than their weak supervisors, a phenomenon we call weak-to-strong generalization. However, we are still far from recovering the full capabilities of strong models with naive finetuning alone, suggesting that techniques like RLHF may scale poorly to superhuman models without further work. We find that simple methods can often significantly improve weak-to-strong generalization: for example, when finetuning GPT-4 with a GPT-2-level supervisor and an auxiliary confidence loss, we can recover close to GPT-3.5-level performance on NLP tasks. Our results suggest that it is feasible to make empirical progress today on a fundamental challenge of aligning superhuman models.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2023,
+   "date": "2023-12-14",
+   "doi": "10.48550/arXiv.2312.09390",
+   "journal": "",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "提出弱监督强模型泛化问题，对齐与学习理论交叉",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:41"
+  ]
+ },
+ "MLP0040": {
+  "id": "MLP0040",
+  "key": "arxiv:2405.16043",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Theoretical Analysis of Weak-to-Strong Generalization",
+  "title": "Theoretical Analysis of Weak-to-Strong Generalization",
+  "authors": [
+   "Hunter Lang",
+   "David Sontag",
+   "Aravindan Vijayaraghavan"
+  ],
+  "arxiv": "2405.16043",
+  "latest_version": "2405.16043v1",
+  "doi": "10.48550/arXiv.2405.16043",
+  "first_public": "2024-05-25",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-05-25",
+  "window": "近三年",
+  "abstract": "Strong student models can learn from weaker teachers: when trained on the predictions of a weaker model, a strong pretrained student can learn to correct the weak model's errors and generalize to examples where the teacher is not confident, even when these examples are excluded from training. This enables learning from cheap, incomplete, and possibly incorrect label information, such as coarse logical rules or the generations of a language model. We show that existing weak supervision theory fails to account for both of these effects, which we call pseudolabel correction and coverage expansion, respectively. We give a new bound based on expansion properties of the data distribution and student hypothesis class that directly accounts for pseudolabel correction and coverage expansion. Our bounds capture the intuition that weak-to-strong generalization occurs when the strong model is unable to fit the mistakes of the weak teacher without incurring additional error. We show that these expansion properties can be checked from finite data and give empirical evidence that they hold in practice.",
+  "arxiv_comment": "36 pages, 3 figures",
+  "journal_ref": "",
+  "s2": {
+   "title": "Theoretical Analysis of Weak-to-Strong Generalization",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-05-25",
+   "doi": "10.48550/arXiv.2405.16043",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "弱到强泛化的理论分析",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:42"
+  ]
+ },
+ "MLP0041": {
+  "id": "MLP0041",
+  "key": "arxiv:2405.15116",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Quantifying the Gain in Weak-to-Strong Generalization",
+  "title": "Quantifying the Gain in Weak-to-Strong Generalization",
+  "authors": [
+   "Moses Charikar",
+   "Chirag Pabbaraju",
+   "Kirankumar Shiragur"
+  ],
+  "arxiv": "2405.15116",
+  "latest_version": "2405.15116v2",
+  "doi": "10.48550/arXiv.2405.15116",
+  "first_public": "2024-05-24",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-10-23",
+  "window": "近三年",
+  "abstract": "Recent advances in large language models have shown capabilities that are extraordinary and near-superhuman. These models operate with such complexity that reliably evaluating and aligning them proves challenging for humans. This leads to the natural question: can guidance from weak models (like humans) adequately direct the capabilities of strong models? In a recent and somewhat surprising work, Burns et al. (2023) empirically demonstrated that when strong models (like GPT-4) are finetuned using labels generated by weak supervisors (like GPT-2), the strong models outperform their weaker counterparts -- a phenomenon they term weak-to-strong generalization. In this work, we present a theoretical framework for understanding weak-to-strong generalization. Specifically, we show that the improvement in performance achieved by strong models over their weaker counterparts is quantified by the misfit error incurred by the strong model on labels generated by the weaker model. Our theory reveals several curious algorithmic insights. For instance, we can predict the amount by which the strong model will improve over the weak model, and also choose among different weak models to train the strong model, based on its misfit error. We validate our theoretical findings through various empirical assessments.",
+  "arxiv_comment": "19 pages; NeurIPS 2024 camera-ready version with additional experiments, references and discussion",
+  "journal_ref": "",
+  "s2": {
+   "title": "Quantifying the Gain in Weak-to-Strong Generalization",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-05-24",
+   "doi": "10.48550/arXiv.2405.15116",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "用错配度量化弱到强增益",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:43"
+  ]
+ },
+ "MLP0042": {
+  "id": "MLP0042",
+  "key": "arxiv:2410.22854",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "S",
+  "seed_title": "Hyperparameter Optimization in Machine Learning",
+  "title": "Hyperparameter Optimization in Machine Learning",
+  "authors": [
+   "Luca Franceschi",
+   "Michele Donini",
+   "Valerio Perrone",
+   "Aaron Klein",
+   "Cédric Archambeau",
+   "Matthias Seeger",
+   "Massimiliano Pontil",
+   "Paolo Frasconi"
+  ],
+  "arxiv": "2410.22854",
+  "latest_version": "2410.22854v3",
+  "doi": "10.1561/2200000088",
+  "first_public": "2024-10-30",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-11-24",
+  "window": "近三年",
+  "abstract": "Hyperparameters are configuration variables controlling the behavior of machine learning algorithms. They are ubiquitous in machine learning and artificial intelligence and the choice of their values determines the effectiveness of systems based on these technologies. Manual hyperparameter search is often time-consuming and becomes infeasible when the number of hyperparameters is large. Automating the search is an important step towards advancing, streamlining, and systematizing machine learning, freeing researchers and practitioners alike from the burden of finding a good set of hyperparameters by trial and error. In this survey, we present a unified treatment of hyperparameter optimization, providing the reader with examples, insights into the state-of-the-art, and numerous links to further reading. We cover the main families of techniques to automate hyperparameter search, often referred to as hyperparameter optimization or tuning, including random and quasi-random search, bandit-, model-, population-, and gradient-based approaches. We further discuss extensions, including online, constrained, and multi-objective formulations, touch upon connections with other fields, such as meta-learning and neural architecture search, and conclude with open questions and future research directions.",
+  "arxiv_comment": "https://www.nowpublishers.com/article/Details/MAL-088",
+  "journal_ref": "Foundations and Trends in Machine Learning, Vol. 18, No. 6 (2025) 1054-1201",
+  "s2": {
+   "title": "Hyperparameter Optimization in Machine Learning",
+   "venue": "Found. Trends Mach. Learn.",
+   "venue_full": "",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-10-30",
+   "doi": "10.1561/2200000088",
+   "journal": "Found. Trends Mach. Learn.",
+   "types": [
+    "JournalArticle",
+    "Review"
+   ]
+  },
+  "crossref": {},
+  "reason": "超参数优化与模型选择的系统综述",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:44"
+  ]
+ },
+ "MLP0043": {
+  "id": "MLP0043",
+  "key": "arxiv:2405.05968",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "A Universal Growth Rate for Learning with Smooth Surrogate Losses",
+  "title": "A Universal Growth Rate for Learning with Smooth Surrogate Losses",
+  "authors": [
+   "Anqi Mao",
+   "Mehryar Mohri",
+   "Yutao Zhong"
+  ],
+  "arxiv": "2405.05968",
+  "latest_version": "2405.05968v2",
+  "doi": "10.48550/arXiv.2405.05968",
+  "first_public": "2024-05-09",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-07-08",
+  "window": "近三年",
+  "abstract": "This paper presents a comprehensive analysis of the growth rate of $H$-consistency bounds (and excess error bounds) for various surrogate losses used in classification. We prove a square-root growth rate near zero for smooth margin-based surrogate losses in binary classification, providing both upper and lower bounds under mild assumptions. This result also translates to excess error bounds. Our lower bound requires weaker conditions than those in previous work for excess error bounds, and our upper bound is entirely novel. Moreover, we extend this analysis to multi-class classification with a series of novel results, demonstrating a universal square-root growth rate for smooth comp-sum and constrained losses, covering common choices for training neural networks in multi-class classification. Given this universal rate, we turn to the question of choosing among different surrogate losses. We first examine how $H$-consistency bounds vary across surrogates based on the number of classes. Next, ignoring constants and focusing on behavior near zero, we identify minimizability gaps as the key differentiating factor in these bounds. Thus, we thoroughly analyze these gaps, to guide surrogate loss selection, covering: comparisons across different comp-sum losses, conditions where gaps become zero, and general conditions leading to small gaps. Additionally, we demonstrate the key role of minimizability gaps in comparing excess error bounds and $H$-consistency bounds.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "A Universal Growth Rate for Learning with Smooth Surrogate Losses",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-05-09",
+   "doi": "10.48550/arXiv.2405.05968",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "光滑代理损失的一致性界增长率",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:46"
+  ]
+ },
+ "MLP0044": {
+  "id": "MLP0044",
+  "key": "arxiv:2407.13722",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Enhanced H-Consistency Bounds",
+  "title": "Enhanced $H$-Consistency Bounds",
+  "authors": [
+   "Anqi Mao",
+   "Mehryar Mohri",
+   "Yutao Zhong"
+  ],
+  "arxiv": "2407.13722",
+  "latest_version": "2407.13722v2",
+  "doi": "10.48550/arXiv.2407.13722",
+  "first_public": "2024-07-18",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-12-28",
+  "window": "近三年",
+  "abstract": "Recent research has introduced a key notion of $H$-consistency bounds for surrogate losses. These bounds offer finite-sample guarantees, quantifying the relationship between the zero-one estimation error (or other target loss) and the surrogate loss estimation error for a specific hypothesis set. However, previous bounds were derived under the condition that a lower bound of the surrogate loss conditional regret is given as a convex function of the target conditional regret, without non-constant factors depending on the predictor or input instance. Can we derive finer and more favorable $H$-consistency bounds? In this work, we relax this condition and present a general framework for establishing enhanced $H$-consistency bounds based on more general inequalities relating conditional regrets. Our theorems not only subsume existing results as special cases but also enable the derivation of more favorable bounds in various scenarios. These include standard multi-class classification, binary and multi-class classification under Tsybakov noise conditions, and bipartite ranking.",
+  "arxiv_comment": "ALT 2025",
+  "journal_ref": "",
+  "s2": {
+   "title": "Enhanced H-Consistency Bounds",
+   "venue": "International Conference on Algorithmic Learning Theory",
+   "venue_full": "International Conference on Algorithmic Learning Theory",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-07-18",
+   "doi": "10.48550/arXiv.2407.13722",
+   "journal": "",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "代理损失与目标损失之间的 H-一致性界",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:47"
+  ]
+ },
+ "MLP0045": {
+  "id": "MLP0045",
+  "key": "arxiv:2402.04376",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Scaling Laws for Learning with Real and Surrogate Data",
+  "title": "Scaling laws for learning with real and surrogate data",
+  "authors": [
+   "Ayush Jain",
+   "Andrea Montanari",
+   "Eren Sasoglu"
+  ],
+  "arxiv": "2402.04376",
+  "latest_version": "2402.04376v3",
+  "doi": "10.48550/arXiv.2402.04376",
+  "first_public": "2024-02-06",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-12-03",
+  "window": "近三年",
+  "abstract": "Collecting large quantities of high-quality data can be prohibitively expensive or impractical, and a bottleneck in machine learning. One may instead augment a small set of $n$ data points from the target distribution with data from more accessible sources, e.g. data collected under different circumstances or synthesized by generative models. We refer to such data as `surrogate data'. We study a weighted empirical risk minimization (ERM) approach for integrating surrogate data into training. We analyze mathematically this method under several classical statistical models, and validate our findings empirically on datasets from different domains. Our main findings are: $(i)$ Integrating surrogate data can significantly reduce the test error on the original distribution. Surprisingly, this can happen even when the surrogate data is unrelated to the original ones. We trace back this behavior to the classical Stein's paradox. $(ii)$ In order to reap the benefit of surrogate data, it is crucial to use optimally weighted ERM. $(iii)$ The test error of models trained on mixtures of real and surrogate data is approximately described by a scaling law. This scaling law can be used to predict the optimal weighting scheme, and to choose the amount of surrogate data to add.",
+  "arxiv_comment": "Added new experiment and minor changes",
+  "journal_ref": "",
+  "s2": {
+   "title": "Scaling laws for learning with real and surrogate data",
+   "venue": "Neural Information Processing Systems",
+   "venue_full": "Neural Information Processing Systems",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-02-06",
+   "doi": "10.48550/arXiv.2402.04376",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "混合真实数据与代理数据的标度律",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:48"
+  ]
+ },
+ "MLP0046": {
+  "id": "MLP0046",
+  "key": "arxiv:2501.16265",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C06"
+  ],
+  "kind": "R",
+  "seed_title": "Training Dynamics of In-context Learning in Linear Attention",
+  "title": "Training Dynamics of In-Context Learning in Linear Attention",
+  "authors": [
+   "Yedi Zhang",
+   "Aaditya K. Singh",
+   "Peter E. Latham",
+   "Andrew Saxe"
+  ],
+  "arxiv": "2501.16265",
+  "latest_version": "2501.16265v2",
+  "doi": "10.48550/arXiv.2501.16265",
+  "first_public": "2025-01-27",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-05-27",
+  "window": "近三年",
+  "abstract": "While attention-based models have demonstrated the remarkable ability of in-context learning (ICL), the theoretical understanding of how these models acquired this ability through gradient descent training is still preliminary. Towards answering this question, we study the gradient descent dynamics of multi-head linear self-attention trained for in-context linear regression. We examine two parametrizations of linear self-attention: one with the key and query weights merged as a single matrix (common in theoretical studies), and one with separate key and query matrices (closer to practical settings). For the merged parametrization, we show that the training dynamics has two fixed points and the loss trajectory exhibits a single, abrupt drop. We derive an analytical time-course solution for a certain class of datasets and initialization. For the separate parametrization, we show that the training dynamics has exponentially many fixed points and the loss exhibits saddle-to-saddle dynamics, which we reduce to scalar ordinary differential equations. During training, the model implements principal component regression in context with the number of principal components increasing over training time. Overall, we provide a theoretical description of how ICL abilities evolve during gradient descent training of linear attention, revealing abrupt acquisition or progressive improvements depending on how the key and query are parametrized.",
+  "arxiv_comment": "ICML 2025 Spotlight",
+  "journal_ref": "",
+  "s2": {
+   "title": "Training Dynamics of In-Context Learning in Linear Attention",
+   "venue": "International Conference on Machine Learning",
+   "venue_full": "International Conference on Machine Learning",
+   "venue_type": "conference",
+   "year": 2025,
+   "date": "2025-01-27",
+   "doi": "10.48550/arXiv.2501.16265",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle",
+    "Conference"
+   ]
+  },
+  "crossref": {},
+  "reason": "线性注意力中上下文学习的训练动力学",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:49"
+  ]
+ },
+ "MLP0047": {
+  "id": "MLP0047",
+  "key": "arxiv:2410.04642",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C04"
+  ],
+  "kind": "R",
+  "seed_title": "The Optimization Landscape of SGD Across the Feature Learning Strength",
+  "title": "The Optimization Landscape of SGD Across the Feature Learning Strength",
+  "authors": [
+   "Alexander Atanasov",
+   "Alexandru Meterez",
+   "James B. Simon",
+   "Cengiz Pehlevan"
+  ],
+  "arxiv": "2410.04642",
+  "latest_version": "2410.04642v3",
+  "doi": "10.48550/arXiv.2410.04642",
+  "first_public": "2024-10-06",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-03-02",
+  "window": "近三年",
+  "abstract": "We consider neural networks (NNs) where the final layer is down-scaled by a fixed hyperparameter $γ$. Recent work has identified $γ$ as controlling the strength of feature learning. As $γ$ increases, network evolution changes from \"lazy\" kernel dynamics to \"rich\" feature-learning dynamics, with a host of associated benefits including improved performance on common tasks. In this work, we conduct a thorough empirical investigation of the effect of scaling $γ$ across a variety of models and datasets in the online training setting. We first examine the interaction of $γ$ with the learning rate $η$, identifying several scaling regimes in the $γ$-$η$ plane which we explain theoretically using a simple model. We find that the optimal learning rate $η^*$ scales non-trivially with $γ$. In particular, $η^* \\propto γ^2$ when $γ\\ll 1$ and $η^* \\propto γ^{2/L}$ when $γ\\gg 1$ for a feed-forward network of depth $L$. Using this optimal learning rate scaling, we proceed with an empirical study of the under-explored \"ultra-rich\" $γ\\gg 1$ regime. We find that networks in this regime display characteristic loss curves, starting with a long plateau followed by a drop-off, sometimes followed by one or more additional staircase steps. We find networks of different large $γ$ values optimize along similar trajectories up to a reparameterization of time. We further find that optimal online performance is often found at large $γ$ and could be missed if this hyperparameter is not tuned. Our findings indicate that analytical study of the large-$γ$ limit may yield useful insights into the dynamics of representation learning in performant models.",
+  "arxiv_comment": "ICLR 2025 Final Copy, 40 Pages, 45 figures",
+  "journal_ref": "",
+  "s2": {
+   "title": "The Optimization Landscape of SGD Across the Feature Learning Strength",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-10-06",
+   "doi": "10.48550/arXiv.2410.04642",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "特征学习强度对 SGD 优化景观的影响",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:50"
+  ]
+ },
+ "MLP0048": {
+  "id": "MLP0048",
+  "key": "arxiv:2403.17592",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C10"
+  ],
+  "kind": "R",
+  "seed_title": "On the Benefits of Over-parameterization for Out-of-Distribution Generalization",
+  "title": "On the Benefits of Over-parameterization for Out-of-Distribution Generalization",
+  "authors": [
+   "Yifan Hao",
+   "Yong Lin",
+   "Difan Zou",
+   "Tong Zhang"
+  ],
+  "arxiv": "2403.17592",
+  "latest_version": "2403.17592v1",
+  "doi": "10.48550/arXiv.2403.17592",
+  "first_public": "2024-03-26",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-03-26",
+  "window": "近三年",
+  "abstract": "In recent years, machine learning models have achieved success based on the independently and identically distributed assumption. However, this assumption can be easily violated in real-world applications, leading to the Out-of-Distribution (OOD) problem. Understanding how modern over-parameterized DNNs behave under non-trivial natural distributional shifts is essential, as current theoretical understanding is insufficient. Existing theoretical works often provide meaningless results for over-parameterized models in OOD scenarios or even contradict empirical findings. To this end, we are investigating the performance of the over-parameterized model in terms of OOD generalization under the general benign overfitting conditions. Our analysis focuses on a random feature model and examines non-trivial natural distributional shifts, where the benign overfitting estimators demonstrate a constant excess OOD loss, despite achieving zero excess in-distribution (ID) loss. We demonstrate that in this scenario, further increasing the model's parameterization can significantly reduce the OOD loss. Intuitively, the variance term of ID loss remains low due to orthogonality of long-tail features, meaning overfitting noise during training generally doesn't raise testing loss. However, in OOD cases, distributional shift increases the variance term. Thankfully, the inherent shift is unrelated to individual x, maintaining the orthogonality of long-tail features. Expanding the hidden dimension can additionally improve this orthogonality by mapping the features into higher-dimensional spaces, thereby reducing the variance term. We further show that model ensembles also improve OOD loss, akin to increasing model capacity. These insights explain the empirical phenomenon of enhanced OOD generalization through model ensembles, supported by consistent simulations with theoretical results.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "On the Benefits of Over-parameterization for Out-of-Distribution Generalization",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-03-26",
+   "doi": "10.48550/arXiv.2403.17592",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "过参数化对分布外泛化的作用",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:51"
+  ]
+ },
+ "MLP0049": {
+  "id": "MLP0049",
+  "key": "arxiv:2407.02754",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C10"
+  ],
+  "kind": "R",
+  "seed_title": "Is Cross-Validation the Gold Standard to Evaluate Model Performance?",
+  "title": "Is Cross-Validation the Gold Standard to Evaluate Model Performance?",
+  "authors": [
+   "Garud Iyengar",
+   "Henry Lam",
+   "Tianyu Wang"
+  ],
+  "arxiv": "2407.02754",
+  "latest_version": "2407.02754v2",
+  "doi": "",
+  "first_public": "2024-07-03",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-08-20",
+  "window": "近三年",
+  "abstract": "Cross-Validation (CV) is the default choice for evaluating the performance of machine learning models. Despite its wide usage, their statistical benefits have remained half-understood, especially in challenging nonparametric regimes. In this paper we fill in this gap and show that in fact, for a wide spectrum of models, CV does not statistically outperform the simple \"plug-in\" approach where one reuses training data for testing evaluation. Specifically, in terms of both the asymptotic bias and coverage accuracy of the associated interval for out-of-sample evaluation, $K$-fold CV provably cannot outperform plug-in regardless of the rate at which the parametric or nonparametric models converge. Leave-one-out CV can have a smaller bias as compared to plug-in; however, this bias improvement is negligible compared to the variability of the evaluation, and in some important cases leave-one-out again does not outperform plug-in once this variability is taken into account. We obtain our theoretical comparisons via a novel higher-order Taylor analysis that allows us to derive necessary conditions for limit theorems of testing evaluations, which applies to model classes that are not amenable to previously known sufficient conditions. Our numerical results demonstrate that plug-in performs indeed no worse than CV across a wide range of examples.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Is Cross-Validation the Gold Standard to Evaluate Model Performance?",
+   "venue": "",
+   "venue_full": "",
+   "venue_type": "",
+   "year": 2024,
+   "date": "2024-07-03",
+   "doi": "",
+   "journal": "",
+   "types": []
+  },
+  "crossref": {},
+  "reason": "交叉验证在模型评估中的统计性质再审视",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:52"
+  ]
+ },
+ "MLP0050": {
+  "id": "MLP0050",
+  "key": "arxiv:2502.07551",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Early Stopping Against Label Noise Without Validation Data",
+  "title": "Early Stopping Against Label Noise Without Validation Data",
+  "authors": [
+   "Suqin Yuan",
+   "Lei Feng",
+   "Tongliang Liu"
+  ],
+  "arxiv": "2502.07551",
+  "latest_version": "2502.07551v1",
+  "doi": "10.48550/arXiv.2502.07551",
+  "first_public": "2025-02-11",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2025-02-11",
+  "window": "近三年",
+  "abstract": "Early stopping methods in deep learning face the challenge of balancing the volume of training and validation data, especially in the presence of label noise. Concretely, sparing more data for validation from training data would limit the performance of the learned model, yet insufficient validation data could result in a sub-optimal selection of the desired model. In this paper, we propose a novel early stopping method called Label Wave, which does not require validation data for selecting the desired model in the presence of label noise. It works by tracking the changes in the model's predictions on the training set during the training process, aiming to halt training before the model unduly fits mislabeled data. This method is empirically supported by our observation that minimum fluctuations in predictions typically occur at the training epoch before the model excessively fits mislabeled data. Through extensive experiments, we show both the effectiveness of the Label Wave method across various settings and its capability to enhance the performance of existing methods for learning with noisy labels.",
+  "arxiv_comment": "Accepted by ICLR 2024",
+  "journal_ref": "",
+  "s2": {
+   "title": "Early Stopping Against Label Noise Without Validation Data",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2025,
+   "date": "2025-02-11",
+   "doi": "10.48550/arXiv.2502.07551",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "无验证集的早停正则化",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:53"
+  ]
+ },
+ "MLP0051": {
+  "id": "MLP0051",
+  "key": "arxiv:2410.18938",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "A Random Matrix Theory Perspective on the Spectrum of Learned Features and Asymptotic Generalization Capabilities",
+  "title": "A Random Matrix Theory Perspective on the Spectrum of Learned Features and Asymptotic Generalization Capabilities",
+  "authors": [
+   "Yatin Dandi",
+   "Luca Pesce",
+   "Hugo Cui",
+   "Florent Krzakala",
+   "Yue M. Lu",
+   "Bruno Loureiro"
+  ],
+  "arxiv": "2410.18938",
+  "latest_version": "2410.18938v1",
+  "doi": "10.48550/arXiv.2410.18938",
+  "first_public": "2024-10-24",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-10-24",
+  "window": "近三年",
+  "abstract": "A key property of neural networks is their capacity of adapting to data during training. Yet, our current mathematical understanding of feature learning and its relationship to generalization remain limited. In this work, we provide a random matrix analysis of how fully-connected two-layer neural networks adapt to the target function after a single, but aggressive, gradient descent step. We rigorously establish the equivalence between the updated features and an isotropic spiked random feature model, in the limit of large batch size. For the latter model, we derive a deterministic equivalent description of the feature empirical covariance matrix in terms of certain low-dimensional operators. This allows us to sharply characterize the impact of training in the asymptotic feature spectrum, and in particular, provides a theoretical grounding for how the tails of the feature spectrum modify with training. The deterministic equivalent further yields the exact asymptotic generalization error, shedding light on the mechanisms behind its improvement in the presence of feature learning. Our result goes beyond standard random matrix ensembles, and therefore we believe it is of independent technical interest. Different from previous work, our result holds in the challenging maximal learning rate regime, is fully rigorous and allows for finitely supported second layer initialization, which turns out to be crucial for studying the functional expressivity of the learned features. This provides a sharp description of the impact of feature learning in the generalization of two-layer neural networks, beyond the random features and lazy training regimes.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "A Random Matrix Theory Perspective on the Spectrum of Learned Features and Asymptotic Generalization Capabilities",
+   "venue": "International Conference on Artificial Intelligence and Statistics",
+   "venue_full": "International Conference on Artificial Intelligence and Statistics",
+   "venue_type": "conference",
+   "year": 2024,
+   "date": "2024-10-24",
+   "doi": "10.48550/arXiv.2410.18938",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "用随机矩阵理论刻画学到特征的谱与泛化",
+  "old_reason": "",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:54"
+  ]
+ },
+ "MLP0052": {
+  "id": "MLP0052",
+  "key": "arxiv:2309.04381",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "T",
+  "seed_title": "Generalization Bounds: Perspectives from Information Theory and PAC-Bayes",
+  "title": "Generalization Bounds: Perspectives from Information Theory and PAC-Bayes",
+  "authors": [
+   "Fredrik Hellström",
+   "Giuseppe Durisi",
+   "Benjamin Guedj",
+   "Maxim Raginsky"
+  ],
+  "arxiv": "2309.04381",
+  "latest_version": "2309.04381v2",
+  "doi": "10.48550/arXiv.2309.04381",
+  "first_public": "2023-09-08",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2024-03-27",
+  "window": "三年前",
+  "abstract": "A fundamental question in theoretical machine learning is generalization. Over the past decades, the PAC-Bayesian approach has been established as a flexible framework to address the generalization capabilities of machine learning algorithms, and design new ones. Recently, it has garnered increased interest due to its potential applicability for a variety of learning algorithms, including deep neural networks. In parallel, an information-theoretic view of generalization has developed, wherein the relation between generalization and various information measures has been established. This framework is intimately connected to the PAC-Bayesian approach, and a number of results have been independently discovered in both strands. In this monograph, we highlight this strong connection and present a unified treatment of PAC-Bayesian and information-theoretic generalization bounds. We present techniques and results that the two perspectives have in common, and discuss the approaches and interpretations that differ. In particular, we demonstrate how many proofs in the area share a modular structure, through which the underlying ideas can be intuited. We pay special attention to the conditional mutual information (CMI) framework; analytical studies of the information complexity of learning algorithms; and the application of the proposed methods to deep learning. This monograph is intended to provide a comprehensive introduction to information-theoretic generalization bounds and their connection to PAC-Bayes, serving as a foundation from which the most recent developments are accessible. It is aimed broadly towards researchers with an interest in generalization and theoretical machine learning.",
+  "arxiv_comment": "228 pages",
+  "journal_ref": "",
+  "s2": {
+   "title": "Generalization Bounds: Perspectives from Information Theory and PAC-Bayes",
+   "venue": "arXiv.org",
+   "venue_full": "arXiv.org",
+   "venue_type": "",
+   "year": 2023,
+   "date": "2023-09-08",
+   "doi": "10.48550/arXiv.2309.04381",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "信息论与 PAC-Bayes 泛化界的系统专著式综述",
+  "old_reason": "2023-09 首发，近三年内无同等完整度的泛化界教程，作为学习理论入门必要补充",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:55"
+  ]
+ },
+ "MLP0053": {
+  "id": "MLP0053",
+  "key": "arxiv:2104.00673",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C10"
+  ],
+  "kind": "R",
+  "seed_title": "Cross-validation: what does it estimate and how well does it do it?",
+  "title": "Cross-validation: what does it estimate and how well does it do it?",
+  "authors": [
+   "Stephen Bates",
+   "Trevor Hastie",
+   "Robert Tibshirani"
+  ],
+  "arxiv": "2104.00673",
+  "latest_version": "2104.00673v4",
+  "doi": "10.1080/01621459.2023.2197686",
+  "first_public": "2021-04-01",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2022-07-18",
+  "window": "三年前",
+  "abstract": "Cross-validation is a widely-used technique to estimate prediction error, but its behavior is complex and not fully understood. Ideally, one would like to think that cross-validation estimates the prediction error for the model at hand, fit to the training data. We prove that this is not the case for the linear model fit by ordinary least squares; rather it estimates the average prediction error of models fit on other unseen training sets drawn from the same population. We further show that this phenomenon occurs for most popular estimates of prediction error, including data splitting, bootstrapping, and Mallow's Cp. Next, the standard confidence intervals for prediction error derived from cross-validation may have coverage far below the desired level. Because each data point is used for both training and testing, there are correlations among the measured accuracies for each fold, and so the usual estimate of variance is too small. We introduce a nested cross-validation scheme to estimate this variance more accurately, and we show empirically that this modification leads to intervals with approximately correct coverage in many examples where traditional cross-validation intervals fail.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Cross-validation: what does it estimate and how well does it do it?",
+   "venue": "Journal of the American Statistical Association",
+   "venue_full": "Journal of the American Statistical Association",
+   "venue_type": "journal",
+   "year": 2021,
+   "date": "2021-04-01",
+   "doi": "10.1080/01621459.2023.2197686",
+   "journal": "Journal of the American Statistical Association",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "澄清交叉验证估计对象与置信区间问题",
+  "old_reason": "模型选择领域的经典参考，近年工作普遍以其为起点",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:56"
+  ]
+ },
+ "MLP0054": {
+  "id": "MLP0054",
+  "key": "arxiv:1812.11118",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Reconciling modern machine learning practice and the bias-variance trade-off",
+  "title": "Reconciling modern machine learning practice and the bias-variance trade-off",
+  "authors": [
+   "Mikhail Belkin",
+   "Daniel Hsu",
+   "Siyuan Ma",
+   "Soumik Mandal"
+  ],
+  "arxiv": "1812.11118",
+  "latest_version": "1812.11118v2",
+  "doi": "10.1073/pnas.1903070116",
+  "first_public": "2018-12-28",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2019-09-10",
+  "window": "三年前",
+  "abstract": "Breakthroughs in machine learning are rapidly changing science and society, yet our fundamental understanding of this technology has lagged far behind. Indeed, one of the central tenets of the field, the bias-variance trade-off, appears to be at odds with the observed behavior of methods used in the modern machine learning practice. The bias-variance trade-off implies that a model should balance under-fitting and over-fitting: rich enough to express underlying structure in data, simple enough to avoid fitting spurious patterns. However, in the modern practice, very rich models such as neural networks are trained to exactly fit (i.e., interpolate) the data. Classically, such models would be considered over-fit, and yet they often obtain high accuracy on test data. This apparent contradiction has raised questions about the mathematical foundations of machine learning and their relevance to practitioners. In this paper, we reconcile the classical understanding and the modern practice within a unified performance curve. This \"double descent\" curve subsumes the textbook U-shaped bias-variance trade-off curve by showing how increasing model capacity beyond the point of interpolation results in improved performance. We provide evidence for the existence and ubiquity of double descent for a wide spectrum of models and datasets, and we posit a mechanism for its emergence. This connection between the performance and the structure of machine learning models delineates the limits of classical analyses, and has implications for both the theory and practice of machine learning.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Reconciling modern machine-learning practice and the classical bias–variance trade-off",
+   "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+   "venue_full": "Proceedings of the National Academy of Sciences of the United States of America",
+   "venue_type": "journal",
+   "year": 2018,
+   "date": "2018-12-28",
+   "doi": "10.1073/pnas.1903070116",
+   "journal": "Proceedings of the National Academy of Sciences",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "提出\"双下降\"曲线",
+  "old_reason": "双下降概念原始出处，理解近年泛化研究的必要背景",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:57"
+  ]
+ },
+ "MLP0055": {
+  "id": "MLP0055",
+  "key": "arxiv:1611.03530",
+  "primary": "C01",
+  "cats": [
+   "C01"
+  ],
+  "kind": "R",
+  "seed_title": "Understanding deep learning requires rethinking generalization",
+  "title": "Understanding deep learning requires rethinking generalization",
+  "authors": [
+   "Chiyuan Zhang",
+   "Samy Bengio",
+   "Moritz Hardt",
+   "Benjamin Recht",
+   "Oriol Vinyals"
+  ],
+  "arxiv": "1611.03530",
+  "latest_version": "1611.03530v2",
+  "doi": "",
+  "first_public": "2016-11-10",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2017-02-26",
+  "window": "三年前",
+  "abstract": "Despite their massive size, successful deep artificial neural networks can exhibit a remarkably small difference between training and test performance. Conventional wisdom attributes small generalization error either to properties of the model family, or to the regularization techniques used during training. Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data. This phenomenon is qualitatively unaffected by explicit regularization, and occurs even if we replace the true images by completely unstructured random noise. We corroborate these experimental findings with a theoretical construction showing that simple depth two neural networks already have perfect finite sample expressivity as soon as the number of parameters exceeds the number of data points as it usually does in practice. We interpret our experimental findings by comparison with traditional models.",
+  "arxiv_comment": "Published in ICLR 2017",
+  "journal_ref": "",
+  "s2": {
+   "title": "Understanding deep learning requires rethinking generalization",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2016,
+   "date": "2016-11-04",
+   "doi": "",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "随机标签实验揭示深网记忆能力",
+  "old_reason": "现代泛化理论讨论的起点，近三年论文大量引用",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:58"
+  ]
+ },
+ "MLP0056": {
+  "id": "MLP0056",
+  "key": "arxiv:1912.02178",
+  "primary": "C01",
+  "cats": [
+   "C01",
+   "C10"
+  ],
+  "kind": "R",
+  "seed_title": "Fantastic Generalization Measures and Where to Find Them",
+  "title": "Fantastic Generalization Measures and Where to Find Them",
+  "authors": [
+   "Yiding Jiang",
+   "Behnam Neyshabur",
+   "Hossein Mobahi",
+   "Dilip Krishnan",
+   "Samy Bengio"
+  ],
+  "arxiv": "1912.02178",
+  "latest_version": "1912.02178v1",
+  "doi": "",
+  "first_public": "2019-12-04",
+  "first_public_source": "arXiv v1 提交日",
+  "version_date": "2019-12-04",
+  "window": "三年前",
+  "abstract": "Generalization of deep networks has been of great interest in recent years, resulting in a number of theoretically and empirically motivated complexity measures. However, most papers proposing such measures study only a small set of models, leaving open the question of whether the conclusion drawn from those experiments would remain valid in other settings. We present the first large scale study of generalization in deep networks. We investigate more then 40 complexity measures taken from both theoretical bounds and empirical studies. We train over 10,000 convolutional networks by systematically varying commonly used hyperparameters. Hoping to uncover potentially causal relationships between each measure and generalization, we analyze carefully controlled experiments and show surprising failures of some measures as well as promising measures for further research.",
+  "arxiv_comment": "",
+  "journal_ref": "",
+  "s2": {
+   "title": "Fantastic Generalization Measures and Where to Find Them",
+   "venue": "International Conference on Learning Representations",
+   "venue_full": "International Conference on Learning Representations",
+   "venue_type": "conference",
+   "year": 2019,
+   "date": "2019-12-04",
+   "doi": "",
+   "journal": "ArXiv",
+   "types": [
+    "JournalArticle"
+   ]
+  },
+  "crossref": {},
+  "reason": "大规模比较泛化度量",
+  "old_reason": "泛化度量实证评估的经典基准，仍是近年工作的对照",
+  "seed_src": [
+   "C01_ml_foundations_cn.txt:59"
+  ]
+ }
+}

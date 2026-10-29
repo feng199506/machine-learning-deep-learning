@@ -1,0 +1,90 @@
+{
+ "lossfunctionsindeeplearningacomprehensivereview": [],
+ "tabarenaalivingbenchmarkformachinelearningontabulardata": [],
+ "tabulardataisattentionallyouneed": [],
+ "thecomputationalcurseofbigdataforbayesianadditiveregressiontreesahittingtimeanalysis": [],
+ "gamformerincontextlearningforgeneralizedadditivemodels": [],
+ "mothernetafoundationalhypernetworkfortabularclassification": [],
+ "datasciencewithllmsandinterpretablemodels": [
+  {
+   "id": "2402.14474",
+   "latest_version": "2402.14474v1",
+   "abs_url": "http://arxiv.org/abs/2402.14474v1",
+   "title": "Data Science with LLMs and Interpretable Models",
+   "authors": [
+    "Sebastian Bordt",
+    "Ben Lengerich",
+    "Harsha Nori",
+    "Rich Caruana"
+   ],
+   "published": "2024-02-22",
+   "updated": "2024-02-22",
+   "abstract": "Recent years have seen important advances in the building of interpretable models, machine learning models that are designed to be easily understood by humans. In this work, we show that large language models (LLMs) are remarkably good at working with interpretable models, too. In particular, we show that LLMs can describe, interpret, and debug Generalized Additive Models (GAMs). Combining the flexibility of LLMs with the breadth of statistical patterns accurately described by GAMs enables dataset summarization, question answering, and model critique. LLMs can also improve the interaction between domain experts and interpretable models, and generate hypotheses about the underlying phenomenon. We release \\url{https://github.com/interpretml/TalkToEBM} as an open-source LLM-GAM interface.",
+   "comment": "XAI4Sci Workshop at AAAI-24",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "aunifiedapproachtoextractinterpretablerulesfromtreeensemblesviaintegerprogramming": [
+  {
+   "id": "2407.00843",
+   "latest_version": "2407.00843v3",
+   "abs_url": "http://arxiv.org/abs/2407.00843v3",
+   "title": "A Unified Approach to Extract Interpretable Rules from Tree Ensembles via Integer Programming",
+   "authors": [
+    "Lorenzo Bonasera",
+    "Emilio Carrizosa"
+   ],
+   "published": "2024-06-30",
+   "updated": "2025-01-13",
+   "abstract": "Tree ensembles are very popular machine learning models, known for their effectiveness in supervised classification and regression tasks. Their performance derives from aggregating predictions of multiple decision trees, which are renowned for their interpretability properties. However, tree ensemble models do not reliably exhibit interpretable output. Our work aims to extract an optimized list of rules from a trained tree ensemble, providing the user with a condensed, interpretable model that retains most of the predictive power of the full model. Our approach consists of solving a set partitioning problem formulated through Integer Programming. The proposed method works with either tabular or time series data, for both classification and regression tasks, and its flexible formulation can include any arbitrary loss or regularization functions. Our extensive computational experiments offer statistically significant evidence that our method is competitive with other rule extraction methods in terms of predictive performance and fidelity towards the tree ensemble. Moreover, we empirically show that the proposed method effectively extracts interpretable rules from tree ensemble that are designed for time series data.",
+   "comment": "- Improved overall manuscript flow and clearness - Added related work on explanation fidelity - Added computational results on fidelity - Fixed some flaws on data inference - Optimization problem with weighted objectives - Added appendix containing qualitative examples - New computational results",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "math.OC"
+  }
+ ],
+ "themanyfacesofoptimalweaktostronglearning": [
+  {
+   "id": "2408.17148",
+   "latest_version": "2408.17148v1",
+   "abs_url": "http://arxiv.org/abs/2408.17148v1",
+   "title": "The Many Faces of Optimal Weak-to-Strong Learning",
+   "authors": [
+    "Mikael Møller Høgsgaard",
+    "Kasper Green Larsen",
+    "Markus Engelund Mathiasen"
+   ],
+   "published": "2024-08-30",
+   "updated": "2024-08-30",
+   "abstract": "Boosting is an extremely successful idea, allowing one to combine multiple low accuracy classifiers into a much more accurate voting classifier. In this work, we present a new and surprisingly simple Boosting algorithm that obtains a provably optimal sample complexity. Sample optimal Boosting algorithms have only recently been developed, and our new algorithm has the fastest runtime among all such algorithms and is the simplest to describe: Partition your training data into 5 disjoint pieces of equal size, run AdaBoost on each, and combine the resulting classifiers via a majority vote. In addition to this theoretical contribution, we also perform the first empirical comparison of the proposed sample optimal Boosting algorithms. Our pilot empirical study suggests that our new algorithm might outperform previous algorithms on large data sets.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "representationlearningfortabulardataacomprehensivesurvey": [
+  {
+   "id": "2504.16109",
+   "latest_version": "2504.16109v1",
+   "abs_url": "http://arxiv.org/abs/2504.16109v1",
+   "title": "Representation Learning for Tabular Data: A Comprehensive Survey",
+   "authors": [
+    "Jun-Peng Jiang",
+    "Si-Yang Liu",
+    "Hao-Run Cai",
+    "Qile Zhou",
+    "Han-Jia Ye"
+   ],
+   "published": "2025-04-17",
+   "updated": "2025-04-17",
+   "abstract": "Tabular data, structured as rows and columns, is among the most prevalent data types in machine learning classification and regression applications. Models for learning from tabular data have continuously evolved, with Deep Neural Networks (DNNs) recently demonstrating promising results through their capability of representation learning. In this survey, we systematically introduce the field of tabular representation learning, covering the background, challenges, and benchmarks, along with the pros and cons of using DNNs. We organize existing methods into three main categories according to their generalization capabilities: specialized, transferable, and general models. Specialized models focus on tasks where training and evaluation occur within the same data distribution. We introduce a hierarchical taxonomy for specialized models based on the key aspects of tabular data -- features, samples, and objectives -- and delve into detailed strategies for obtaining high-quality feature- and sample-level representations. Transferable models are pre-trained on one or more datasets and subsequently fine-tuned on downstream tasks, leveraging knowledge acquired from homogeneous or heterogeneous sources, or even cross-modalities such as vision and language. General models, also known as tabular foundation models, extend this concept further, allowing direct application to downstream tasks without fine-tuning. We group these general models based on the strategies used to adapt across heterogeneous datasets. Additionally, we explore ensemble methods, which integrate the strengths of multiple tabular models. Finally, we discuss representative extensions of tabular learning, including open-environment tabular machine learning, multimodal learning with tabular data, and tabular understanding. More information can be found in the following repository: https://github.com/LAMDA-Tabular/Tabular-Survey.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ]
+}
